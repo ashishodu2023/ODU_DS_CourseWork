@@ -1,0 +1,8 @@
+Login:ssh -i "CS624.pem" ubuntu@ec2-54-80-179-166.compute-1.amazonaws.com
+
+alpaca 
+CK2AAOAC3B3IE1YY4DR0
+7SzlANrRSF6iFkUcpxVL2ACRtqXRg9it2M15uiIG
+
+qdrant
+68wdEsxtPm7BNYumMqkeuoiMU8jkwadIYPu28tqYyX_kCFP556IozQ

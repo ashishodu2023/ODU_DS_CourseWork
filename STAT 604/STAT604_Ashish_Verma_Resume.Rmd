@@ -1,0 +1,167 @@
+---
+output: pdf_document
+---
+
+# Ashish Verma
+## Contact Information
+- Email: averm004@odu.edu
+- Phone: 341-209-7315
+- LinkedIn: [Linked Profile](https://www.linkedin.com/in/ashish-v-7a99a818/)
+- GitHub: [GitHub Profile](https://github.com/ashishodu2023)
+
+# Summary
+Detail-oriented Lead Data Engineer designs, develops and
+maintains highly scalable, secure and reliable data structures.
+Accustomed to working closely with system architects, software
+architects and design analysts to understand business or
+industry requirements to develop comprehensive data models.
+Proficient at developing database architectural strategies at the
+modeling, design and implementation stages.
+
+
+# Skills
+::: concise
+• Cloud Computing
+• Data Modeling
+• Python Programming
+• Real-time Analytics
+• NoSQL Databases
+• Spark Development
+• Scala Programming
+• Agile Methodologies
+• ETL Development
+• Data Integration
+• Hadoop Ecosystem
+• Big Data Processing
+• Data Pipeline Design
+• Problem Solving
+• Data Visualization
+• RDBMS
+• Data Analysis
+• SQL and Databases
+• Analytical Thinking
+• Data Acquisitions
+• Amazon Redshift
+:::
+
+
+
+# Education
+### Old Dominion University, 2023-2024
+
+Masters in Data Science and Analytics,GPA 4.0
+Norfolk,USA
+
+### Kanpur University, 2006-2010
+B.Tech in Computer Science and Engineering,GPA 3.5
+Kanpur,India
+
+
+# Work Experience
+### Lead Data Engineer
+
+PayPal Inc.
+San Jose, California
+#### 02/2022 - Present
+
+::: concise
+* Optimized data processing by implementing cutting-edge data
+engineering techniques and tools.
+* Created 100+ data pipeline using AWS and GCP products,the
+whole data engineering life cycle.
+* Enhanced data quality and reliability for real-time analytics by
+designing and deploying robust data pipelines.
+* Collaborated with cross-functional teams to gather
+requirements, ensuring seamless integration of data
+engineering solutions into existing systems.
+* Mentored junior engineers on best practices in data
+engineering, fostering a culture of continuous learning and
+improvement within the team.
+* Evaluated new technologies and industry trends to identify
+opportunities for enhancing current systems or developing
+innovative solutions.
+* Reduced latency in real-time analytics applications by
+optimizing query performance through indexing strategies and
+proper database design principles.
+* Delivered high-quality code reviews for colleagues
+contributions following established coding standards and best
+practices, maintaining consistency throughout projects.
+* Achieved cost-effective cloud-based storage solutions for
+handling vast amounts of data, resulting in reduced
+operational expenses and increased scalability.
+* Streamlined data ingestion processes to accommodate
+increasing volumes of incoming information while maintaining
+data integrity and ensuring timely accessibility across the organizations.
+:::
+
+### Data Engineer
+
+Kforce Inc
+San Francisco, USA
+#### 03/2020 - 01/2022
+
+::: concise
+* Data analysis, data cleansing, data extraction, data
+transformation and data visualization for various customers
+and products
+* Implemented 50+ data pipelines using Apache Spark and Kafka
+eco systems real time and near real time by utilization various
+other GCP and AWS products.
+* Led end-to-end implementation of multiple high-impact
+projects from requirements gathering through deployment and
+post-launch support stages.
+* Fine-tuned query performance and optimized database
+structures for faster, more accurate data retrieval and
+reporting.
+* Collaborated on ETL (Extract, Transform, Load) tasks,
+maintaining data integrity and verifying pipeline stability.
+* Designed data models for complex analysis needs.
+:::
+
+### ETL Architect
+
+Cognizant Technology Solutions
+San Francisco, USA
+#### 04/2014 - 03/2020
+
+::: concise
+* Designed large scale data warehouse and data mart pipelines,
+implemented various DQ rules, data, converted business
+requirements into technical specifications and various
+migration activities from legacy to new ingestion frameworks
+in python.
+* Collaborated with data analysts and business intelligence
+teams to identify data requirements and ensure that ETL
+processes support their reporting needs.
+* Maintained a high level of security within the ETL environment
+by implementing necessary access controls and performing
+regular audits to detect potential vulnerabilities.
+* Validated warehouse data structure and accuracy.
+Completed quality reviews for designs, codes, test plans and
+documentation methods.
+* Collaborated with multi-functional roles to communicate and
+align development efforts.
+:::
+
+
+### Software Engineer
+
+Wipro Technologies Ltd
+Bangalore India
+#### 11/2011 - 03/2014
+
+::: concise
+* Implemented scalable data warehouse, developed new load
+strategy using Oracle partitions, data modelling and data
+analysis using various databases systems and python
+frameworks.
+* Collaborated with cross-functional teams to deliver
+high-quality software products on schedule.
+* Re factored legacy code bases for improved maintainability,
+paving the way for easier future updates.
+Developed reusable components that significantly reduced
+--development effort on multiple projects.
+:::
+
+
+

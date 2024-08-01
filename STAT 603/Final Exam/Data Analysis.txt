@@ -1,0 +1,11 @@
+https://www.kaggle.com/code/himanshukumar7079/ai-threat-to-jobs
+https://www.kaggle.com/code/khansahil128/factors-affecting-children-anemia-level
+https://www.kaggle.com/code/beratozmen/clash-of-clans-exploratory-data-analysis
+https://www.kaggle.com/code/harshitlakhani/credit-risk-eda-on-risky-loans
+
+https://www.kaggle.com/code/adveros/flight-delay-eda-exploratory-data-analysis
+
+https://www.kaggle.com/code/mregoyau/health-insurance-dataset-eda/notebook
+https://www.kaggle.com/code/praveengovi/credit-risk-analysis-beginner-s-guide
+
+https://www.kaggle.com/code/thomasmann111111/countries-life-expectancy-eda

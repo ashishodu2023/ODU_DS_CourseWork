@@ -1,0 +1,292 @@
+---
+title: "Final_Exam"
+author: "Ashish Verma"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+# Problem 1
+## Solution(a)
+
+Since population sigma is not given and sample size is less than 40, its paired T-test for means.
+
+Null Hypothesis:H0:There is a significant change in WBC leukocytes due to surgery.
+
+Alternate Hypothesis:Ha:  There is no significant change in WBC leukocytes due to surgery.
+```{R}
+presurgery <- c(10.80, 12.90, 9.59, 8.81, 12.00, 6.07)
+postsurgery <- c(10.60, 16.60, 17.20, 14.00, 10.60, 8.60)
+
+t_test_result <- t.test(postsurgery, presurgery, paired = TRUE, conf.level = 0.98)
+
+cat("Test Statistic:", t_test_result$statistic, "\n")
+cat("Degrees of Freedom:", t_test_result$parameter, "\n")
+cat("p-value:", t_test_result$p.value, "\n")
+
+alpha <- 0.02
+if (t_test_result$p.value < alpha) {
+  cat("Reject the null hypothesis. There is a significant change in WBC leukocytes due to surgery.\n")
+} else {
+  cat("Do not reject the null hypothesis. There is no significant change in WBC leukocytes due to surgery.\n")
+}
+```
+## Solution(b)
+```{R}
+cat("98% Confidence Interval:", t_test_result$conf.int, "\n")
+```
+
+# Problem 2
+
+## Solution(a)
+\[ L(\theta; x_1, x_2, \ldots, x_n) = \left( \frac{4}{\theta^3 \sqrt{\pi}} \right)^n \prod_{i=1}^n x_i^2 e^{-\frac{x_i^2}{\theta^2}} \]
+
+### Step 2: Log-Likelihood Function
+
+\[ \log L(\theta) = n \log 4 - \frac{3n}{2} \log \pi - 3n \log \theta + 2 \sum_{i=1}^n \log x_i - \frac{1}{\theta^2} \sum_{i=1}^n x_i^2 \]
+
+### Step 3: Derivative of Log-Likelihood
+
+\[ \frac{\partial \log L(\theta)}{\partial \theta} = -\frac{3n}{\theta} + \frac{2}{\theta^3} \sum_{i=1}^n x_i^2 = 0 \]
+
+### Step 4: Solve for \( \theta \)
+\[ \theta^4 = \frac{2}{3n} \sum_{i=1}^n x_i^2 \]
+\[ \theta = \sqrt[4]{\frac{2}{3n} \sum_{i=1}^n x_i^2} \]
+
+## Solution(b)
+\[ \bar{x} = \frac{1}{n} \sum_{i=1}^n x_i \]
+\[ \bar{x} = \frac{2\hat{\theta}}{\sqrt{\pi}} \]
+\[ \hat{\theta} = \frac{\sqrt{\pi}}{2} \bar{x} \]
+
+
+# Problem 3
+## Solution(a)
+```{R}
+file_path <- "C:/Users/Ashish/Documents/ODU/STAT 604/Final Exam/fastfood.csv"
+fastfood_data <- read.csv(file_path, header = TRUE)
+head(fastfood_data)
+restaurants <- fastfood_data$Restaurants
+obesity <- fastfood_data$Obesity
+
+plot(restaurants, obesity, 
+     main = "Scatter Plot of Fast Food Restaurants vs. Obesity",
+     xlab = "Fast Food Restaurants (per capita)", 
+     ylab = "Rate of Obesity (%)",
+     pch = 19,   # Solid circle for points
+     col = "blue"  # Color of the points
+)
+```
+### Direction: Positive as Fast Food Restaurants increases Obesity increases.
+
+### Strength: Somewhat strong relationship.
+
+## Solution(b)
+```{R}
+cor_value <- cor(restaurants, obesity)
+print(cor_value)
+
+# Load ggplot2 library
+library(ggplot2)
+
+# Compute the Pearson correlation coefficient
+cor_value <- cor(restaurants, obesity)
+
+# Create a scatter plot with a regression line
+ggplot(fastfood_data, aes(x = Restaurants, y = Obesity)) +
+  geom_point(color = "blue", alpha = 0.7) +  # Scatter plot
+  geom_smooth(method = "lm", se = FALSE, color = "red") +  # Linear regression line
+  labs(title = "Scatter Plot of Fast Food Restaurants vs. Obesity",
+       x = "Fast Food Restaurants (per capita)",
+       y = "Rate of Obesity (%)") +
+  annotate("text", x = max(restaurants), y = min(obesity), 
+           label = paste("r =", round(cor_value, 2)), 
+           hjust = 1, vjust = 0, size = 4, color = "black")
+```
+
+## Solution(c)
+
+```{R}
+linear_model <- lm(Obesity ~ Restaurants, data = fastfood_data)
+intercept <- coef(linear_model)[1]  # Intercept (beta_0)
+slope <- coef(linear_model)[2]  # Slope (beta_1)
+cat("Intercept (beta_0):", intercept, "\n")
+cat("Slope (beta_1):", slope, "\n")
+
+summary_result <- summary(linear_model)
+r_squared <- summary_result$r.squared
+cat("Coefficient of Determination (R-squared):", r_squared, "\n")
+```
+A R2 value of 0.67 suggests that the regression model captures a significant portion of the variance in the data, indicating a moderately strong fit.
+
+
+## Solution(d)
+```{R}
+confint_slope <- confint(linear_model, level = 0.95)[2, ] 
+cat("95% Confidence Interval for the Slope:", confint_slope, "\n")
+```
+
+## Solution(e)
+Null Hypothesis:H0:beta1=2.0.
+Alternate Hypothesis:HA:beta1!=20.0
+```{R}
+
+estimated_slope <- coef(summary_result)[2, "Estimate"]
+standard_error <- coef(summary_result)[2, "Std. Error"]
+
+degrees_of_freedom <- summary_result$df[2]
+t_statistic <- (estimated_slope - 2.0) / standard_error
+critical_t_value <- qt(1 - 0.005, df = degrees_of_freedom) 
+reject_null <- abs(t_statistic) > critical_t_value  
+cat("T-statistic:", t_statistic, "\n")
+cat("Critical t-value:", critical_t_value, "\n")
+cat("Reject the null hypothesis?", reject_null, "\n")
+```
+## Solution(f)
+```{R}
+virginia_restaurants <- 4.3
+predicted_obesity <- intercept + slope * virginia_restaurants
+cat("Predicted rate of obesity for Virginia:", predicted_obesity, "%", "\n")
+```
+
+## Solution(g)
+```{R}
+new_data <- data.frame(Restaurants = 4.3)
+prediction <- predict(linear_model, new_data, interval = "confidence", level = 0.90)
+cat("90% Confidence Interval:", prediction[1, c("lwr", "upr")], "\n")
+
+```
+## Solution(h)
+```{R}
+new_data <- data.frame(Restaurants = 4.3)
+prediction <- predict(linear_model, new_data, interval = "prediction", level = 0.90)
+cat("90% Prediction Interval for the rate of obesity:", prediction[1, c("lwr", "upr")], "\n")
+```
+
+
+# Problem 4
+## Solution(a)
+Null Hypothesis H0:mu=72
+Alternate Hypothesis HA:mu>72
+Since population sigma is given and sample size = 30 we can consider it as normal distribution.
+```{R}
+sigma<-20
+alpha<-0.05
+mu<-72
+xbar<-80
+n<-30
+ztesting<- ((mu -xbar)*sqrt(n))/sigma
+zalpha<-qnorm(1 - alpha)
+beta<- pnorm(zalpha+ztesting)
+cat("The type-2 error is",beta)
+```
+## Solution(b)
+```{R}
+sigma<-20
+power<-0.95
+beta_n<-1 - power
+zalpha<-qnorm(1 - alpha)
+zbeta<-qnorm(1 - beta_n)
+sample_size <- (sigma*(zalpha+zbeta)/(mu - xbar))^2
+cat("The sample size is given by",ceiling(sample_size))
+
+```
+
+
+
+# Problem 5
+## Solution(a)
+```{R}
+library(stats)
+data <- data.frame(
+  Dosage = rep(c(20, 30, 40), each = 4),
+  Observations = c(24, 28, 37, 30, 37, 44, 31, 35, 42, 47, 52, 38)
+)
+result <- aov(Observations ~ Dosage, data = data)
+anova_results <- summary(result)
+anova_table <- data.frame(
+  "Source" = rownames(anova_results[[1]]),
+  "DF" = anova_results[[1]]$Df,
+  "Sum Sq" = anova_results[[1]]$"Sum Sq",
+  "Mean Sq" = anova_results[[1]]$"Mean Sq",
+  "F Value" = anova_results[[1]]$"F value",
+  "Pr(>F)" = anova_results[[1]]$"Pr(>F)"
+)
+
+print(anova_table)
+```
+## Solution(b)
+
+Check the assumption of homogeneity of variances (homoscedasticity) among the groups. 
+
+```{R}
+alpha<-0.01
+data <- data.frame(
+  Dosage = rep(c(20, 30, 40), each = 4),
+  Observations = c(24, 28, 37, 30, 37, 44, 31, 35, 42, 47, 52, 38)
+)
+
+data$Dosage <- as.factor(data$Dosage)
+boxplot(Observations ~ Dosage, data = data, xlab = "Dosage", ylab = "Observations")
+bartlett_test <- bartlett.test(Observations ~ Dosage, data = data)
+aov_model <- aov(Observations ~ Dosage, data = data)
+p_value<-bartlett_test$p.value
+
+cat("Pvalue",p_value)
+if (p_value > 0.01) {
+  tukey_results <- TukeyHSD(aov_model,conf.level = 0.99)
+  print(tukey_results)
+} else {
+  print("Tukey test is not recommended due to unequal variances")
+}
+```
+
+# Problem 6
+## Solution(a)
+
+p1 = the proportion of females in the U.S. that believe in miracles
+
+p2 = the proportion of males in the U.S. that believe in miracles
+```{R}
+n<-200
+pf<-112/n
+qf<-1 - pf
+pm<-90/n
+qm<-1 - pm
+alpha<-1 - 0.97
+zalpha<- qnorm(1 - (alpha/2))
+sum1<- (pf*qf/n)
+sum2<-(pm*qm/n)
+margin<- sqrt(sum1+sum2)
+lower_limit<- (pf -pm)- (zalpha*margin)
+upper_limit<- (pf -pm)+ (zalpha*margin)
+cat("The 97% CI is given by",lower_limit,upper_limit)
+```
+## Solution(b)
+
+Null Hypothesis (H0): The proportion of women who believe in miracles is equal to or less than the proportion of men who believe in miracles p1<=p2
+
+Alternative Hypothesis (HA): The proportion of women who believe in miracles is greater than the proportion of men who believe in miracles. p1>p2
+```{R}
+alpha<-0.03
+n<-200
+pf<-112/n
+qf<-1 - pf
+pm<-90/n
+qm<-1 - pm
+pprime <- (pf+pm)/2 #sample size same
+qprime<-1 - pprime
+
+SE <- sqrt(pprime*qprime *(1 / n + 1 / n))
+ztesting<-(pf - pm)/SE
+cat("Test statistics",ztesting)
+zalpha<- qnorm(1 - alpha)
+cat("Critical region",zalpha)
+if (ztesting >= zalpha) {
+  decision <- "Reject the null hypothesis"
+} else {
+  decision <- "Fail to reject the null hypothesis"
+}
+cat(decision)
+```

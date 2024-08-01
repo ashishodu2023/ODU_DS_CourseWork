@@ -1,0 +1,176 @@
+---
+title: "STAT604-Assignment-2"
+author: "Ashish Verma"
+date: "`r Sys.Date()`"
+output: pdf_document
+header-includes:
+  - \usepackage{amsmath}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Assignment-2
+
+
+## Part 1
+### Section 6.2 Problem#22
+Solution:(a) Let , 'X' be random variable has pdf.
+
+
+\[ u_1 = E(x) = \int_{0}^{1} x(\theta+2)x^\theta \,dx \]
+\[ (\theta+1)\int_{0}^{1} x^{\theta + 1}\,dx \]
+\[ \theta+1\left(\frac{x^{\theta + 2}}{{\theta + 2}}\right) \]
+\[ (\theta+1/(\theta+2)) \]
+\[ (\theta+1+1-1/(\theta+2)) \]
+\[ 1 - \frac{1}{{\theta + 2}} \]
+\[ 1 - u_1 = \frac{1}{{\theta + 2}} \]
+\[ (\theta+2) = \frac{1}{{1 - u_1}} \]
+\[ \theta = \frac{1}{{(1 - u_1)^{-2}}} \]
+It is a moment estimate or of \[ \theta = \bar{X} \] mean of the sample data
+
+**Solution: (b)**
+
+Sample \[ \bar{X} = \frac{x_1 + x_2 + x_3 + x_4 + x_5 + x_6 + x_7 + x_8 + x_9 + x_{10}}{10} \]
+
+\[ \bar{X} = \frac{0.92 + 0.79 + 0.9 + 0.65 + 0.86 + 0.47 + 0.73 + 0.97 + 0.94 + 0.77}{10} \]
+
+\[ \bar{X} = 0.8 \]
+
+The estimate of \[ \theta = \frac{1}{{(1 - u_1)^{-2}}} = 5 - 2 = 3 \]
+
+
+
+### Section 6.2 Problem#23
+Given the probability density function (pdf) of the measurement error:
+\( f(x; \theta) \) =\[ \frac{1}{\sqrt{2\pi\theta}} \cdot e^{-\frac{x^2}{2\theta}} \]
+We want to find the maximum likelihood estimate (MLE) of\[\theta\]based on ( n ) independent measurements \( (x_1, x_2, x_3, \ldots, x_n) \)
+The likely hood function \[ L(\theta) \]  is the product of the pdf for each measurement:
+\[ \ln(L(\theta)) = \sum_{i=1}^{n} \ln(f(x;\theta)) \]
+
+The log-likelihood function is given by:
+
+\[ \ln(L(\theta)) = \sum_{i=1}^{N} \ln\left(\frac{1}{\sqrt{2\pi\theta}} \cdot e^{-\frac{x_i^2}{2\theta}}\right) \]
+
+Now, let's differentiate this with respect to \( \theta \) step by step:
+
+\[ \frac{d}{d\theta} \ln(L(\theta)) = \sum_{i=1}^{N} \frac{d}{d\theta} \ln\left(\frac{1}{\sqrt{2\pi\theta}} \cdot e^{-\frac{x_i^2}{2\theta}}\right) \]
+
+Applying the chain rule and sum rule:
+
+\[ \frac{d}{d\theta} \ln(L(\theta)) = \sum_{i=1}^{N} \frac{d}{d\theta} \left( -\frac{1}{2} \ln(2\pi\theta) - \frac{x_i^2}{2\theta} \right) \]
+
+Differentiating each term:
+
+\[ \frac{d}{d\theta} \ln(L(\theta)) = \sum_{i=1}^{N} \left( -\frac{1}{2\theta} + \frac{x_i^2}{2\theta^2} \right) \]
+
+Combine terms:
+
+\[ \frac{d}{d\theta} \ln(L(\theta)) = \sum_{i=1}^{N} \frac{-1 + x_i^2}{2\theta^2} \]
+
+Setting the derivative equal to zero to find the MLE:
+
+\[ \sum_{i=1}^{N} \frac{-1 + x_i^2}{2\theta^2} = 0 \]
+
+The equation obtained from setting the derivative of the log-likelihood equal to zero is:
+
+\[ \sum_{i=1}^{N} \frac{-1 + x_i^2}{2\theta^2} = 0 \]
+
+To solve for \( \theta \), rearrange the equation:
+
+\[ \sum_{i=1}^{N} -1 + x_i^2 = 0 \]
+
+Now, isolate \( \theta \):
+
+\[ \sum_{i=1}^{N} x_i^2 = \sum_{i=1}^{N} 1 \]
+
+\[ \sum_{i=1}^{N} x_i^2 = N \]
+
+Finally, solve for \( \theta \):
+
+\[ \theta = \frac{\sum_{i=1}^{N} x_i^2}{N} \]
+
+So, the maximum likelihood estimate (MLE) for \( \theta \) in this context is \( \frac{\sum_{i=1}^{N} x_i^2}{N} \).
+
+### Section 6.2 Problem#27
+Solution(a):
+The probability density function (PDF) of the gamma distribution is given by:
+\[ f(x; a, b) = \frac{1}{\Gamma(a) b^a} x^{(a-1)} e^{-\frac{x}{b}} \]
+where \( \Gamma(a) \) is the gamma function of \( a \).
+
+
+
+Assuming \( \Gamma(a) \) is the gamma function of \( a \), the likelihood function for a sample of \( n \) independent observations \( X_1, X_2, ..., X_n \) from a gamma distribution is given by:
+\[ L(a, b) = f(X_1; a, b) \cdot f(X_2; a, b) \cdot ... \cdot f(X_n; a, b) \]
+\[ = \frac{1}{\Gamma(a)^n b^{a \cdot n}} \prod_{i=1}^{n} X_i^{(a-1)} e^{-\frac{X_i}{b}} \]
+
+The log-likelihood function is:
+\[ \ln L(a, b) = -n \ln \Gamma(a) - n a \ln b + (a-1) \sum \ln(X_i) - \sum \frac{X_i}{b} \]
+
+
+To find the maximum likelihood estimators of \( a \) and \( b \), we take the partial derivatives of the log-likelihood function with respect to \( a \) and \( b \) and set them equal to zero:
+\[ \frac{\partial \ln L(a, b)}{\partial a} = -n \psi(a) + \sum \ln(X_i) = 0 \]
+where \( \psi(a) \) is the digamma function (derivative of the logarithm of the gamma function).
+\[ \frac{\partial \ln L(a, b)}{\partial b} = -\frac{n a}{b} + \sum \frac{X_i}{b^2} = 0 \]
+The above equations cannot be solved explicitly. However, numerical methods can be used to find the values of a and b that maximize the log-likelihood function.
+
+Solution(b):
+The probability density function (PDF) of the gamma distribution is given by:
+\[ f(x; a, b) = \frac{1}{\Gamma(a) b^a} x^{(a-1)} e^{-\frac{x}{b}} \]
+where \( \Gamma(a) \) is the gamma function of \( a \).
+
+The mean of a gamma distribution is given by:
+\[ E(X) = a \cdot b \]
+Therefore, we have:
+\[ a \cdot b = \mu \]
+
+Since the Maximum Likelihood Estimators (MLE) of \( a \) and \( b \) are:
+\[ a = \left(\frac{n}{\psi(a)}\right)^{-1} \]
+\[ b = \frac{1}{n} \sum_{i=1}^{n} X_i \]
+where \( \psi(a) \) is the gamma function, which is the first derivative of the natural logarithm of the gamma function.
+Substituting these values of \( a \) and \( b \) in the equation for \( \mu \), 
+we get:
+\[ \mu = a \cdot b = \left[\left(\frac{n}{\psi(a)}\right)^{-1}\right] \left[\frac{1}{n} \sum_{i=1}^{n} X_i\right] = \bar{X} \]
+Here, \( \bar{X} \) represents the sample mean.
+
+
+
+## Part 2
+
+To find MLE for \(d\):
+
+### Part (i)
+
+The probability function of \(x\) is given by:
+\[ P(x, \lambda) = \frac{e^{-\lambda} \cdot \lambda^x}{x!} \quad \text{for } x = 0, 1, 2, \ldots \]
+The likelihood function is:
+\[ L = e^{-nd} \cdot \frac{\lambda^{x_1} \cdot x_2 \cdot \ldots \cdot x_n}{x_1! \cdot x_2! \cdot \ldots \cdot x_n!} \]
+So,
+\[ \ln L = -nd + \sum_{i} x_i \ln \lambda - \ln(x_1! \cdot x_2! \cdot \ldots \cdot x_n!) \]
+Taking the partial derivative with respect to \(d\) and equating it to 0, we get:
+\[ \frac{\partial}{\partial d} \ln L = -n + \frac{\sum_{i} x_i}{d} = 0 \]
+Differentiating (1) again partially with respect to \(d\), we get:
+\[ \frac{\partial^2}{\partial d^2} \ln L = -\frac{\sum x_i}{d^2} < 0 \]
+This shows that equation (1) will indeed give the maximum value. Solving for \(d\), we get:
+\[ d = \frac{\sum x_i}{n} = \bar{x} \]
+So, we prove that the MLE for \(d\) is given by \(\bar{d} = \bar{x}\).
+
+### Part (ii)
+
+To find the probability function of \(x\), it is given by:
+\[ P(x, d) = \frac{e^{-\lambda} \cdot d^x}{x!} \]
+The first moment about the origin is given by:
+\[ M_1^1 = E(x) = \sum_{x=0}^{\infty} x \cdot P(x) = \sum_{x=0}^{\infty} x \left(\frac{e^{-d} \cdot d^x}{x!}\right) \]
+After simplifying, we get:
+\[ M_1^1 = \lambda \]
+But \(\bar{x} = \frac{x_1 + x_2 + \ldots + x_n}{n}\), so we get:
+\[ \bar{\lambda} = (\lambda) \]
+Thus, we prove that the moment estimator of \(\lambda\) is given by \(\bar{\lambda} = \bar{x}\).
+
+### Part (iii)
+They are the same: the maximum likelihood estimate of \(d\) is given by \(\frac{\sum x_i}{n} = \bar{x}\).
+The maximum likely hood of \[\lambda\]= \[ 0 \times 4 + 1 \times 12 + 2 \times 22 + 3 \times 14 + 4 \times 9 = 112 \]
+Therefore,
+\[ \frac{112}{50} = 2.24 \]
+

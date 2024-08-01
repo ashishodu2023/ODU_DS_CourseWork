@@ -1,0 +1,33 @@
+Suppose a class consists of 24 students. The average BMI for the class is 32.46,and the standard deviation is 6.92. A new student with BMI 23.5 has joined the
+class. Find the new class average and the updated standard deviation.
+
+Solution
+
+samples = 24
+mean = 32.46
+std = 6.92
+
+new_sample = 23.5
+
+total_sample = 24+1 = 25
+
+As we already know mean=1/n∑ni=1 xi, 
+
+new_mean = =1/(n+1)∑i
+	   =1/(n+1)xi
+	   =1/(n+1)[new_sample+∑i=1n xi]
+	   =(new_sample)/(n+1)+n/(n+1)*mean
+	   =23.5/total_sample+ (sample/total_sample)*mean
+           =(23.5/25)+(24/25)*32.46
+           =0.94+31.1616
+           =32.1016		 
+
+
+
+
+new_std = 1/(n+1)(nx(std)^2 + n*(n-1)(new_mean-mean)^2)
+	= 1/25(24*(6.92)^2 + 24(24-1)*(32.1016-32.46)^2)
+	= 1/25(24*47.88 +552*(-0.3584)^2)
+        =1/25(1149.12+70.90)
+	=6.98	
+        

@@ -1,0 +1,17 @@
+https://www.geeksforgeeks.org/neural-architecture-and-search-methods/
+https://www.youtube.com/watch?v=NQj5TkqX48Q
+https://www.youtube.com/watch?v=UlvkBZdOhpg
+https://www.automl.org/nas-overview/
+https://en.wikipedia.org/wiki/Neural_architecture_search
+https://www.infoworld.com/article/3648408/what-is-neural-architecture-search.html
+https://lilianweng.github.io/posts/2020-08-06-nas/
+https://deci.ai/neural-architecture-search/
+
+https://www.youtube.com/watch?v=Kc1_KZ21aOw--Very good
+https://www.youtube.com/watch?v=CYUpDogeIL0--Very good
+
+EfficientNet Paper-  https://arxiv.org/abs/1905.1194
+
+Person Reidentification-  https://arxiv.org/abs/1903.09776
+
+NAS -  https://arxiv.org/abs/1611.01578

@@ -1,0 +1,27 @@
+https://medium.com/datapebbles/building-end-to-end-mlops-pipelines-with-spark-ml-mlflow-k8s-helm-and-ci-cd-tools-f5bd1b5b8243
+https://github.com/gururajang/Notebooks_SparkML
+https://github.com/aziz0519/sparkml-model-deployment
+https://github.com/MadhuraPrasad97/BDA-Project-017-020
+https://github.com/saritabhateja/sparkML_predict_accident_prone_areas/tree/master/code
+https://github.com/lewi0332/Data-Pipeline-Capstone-Project
+https://github.com/supreetkt/Text-Analysis-using-newsAPI
+https://github.com/VictorVassilev22/SentimentAnalysisStockMaket
+https://github.com/VictorVassilev22/SentimentAnalysisStockMaket/blob/main/train/trainModels.py
+
+https://github.com/lijoabraham/spark-playground/blob/master/heart_disease_classification/Heart_disease_aggregator.ipynb
+https://github.com/Romansth/heart-disease-api
+https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/docApi
+http://erepository.uonbi.ac.ke/bitstream/handle/11295/102038/Kiio_Apache%20Spark%20Based%20Big%20Data%20Analytics%20for%20Social%20Network%20Cybercrime%20Forensics.pdf?sequence=1&isAllowed=y
+
+https://github.com/kevllino/weather-pred --Good
+
+https://github.com/FelixQLe/Detect_Financial_Fraud_at_Scale_with_decision_Trees-Good
+
+https://fraud-detection-handbook.github.io/fraud-detection-handbook/Chapter_3_GettingStarted/SimulatedDataset.html--Good
+https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+
+https://github.com/hyunjoonbok/PySpark/blob/master/Setting%20up%20Fast%20Hyperparameter%20Search%20Framework%20with%20Pyspark.ipynb--Very good
+
+https://github.com/yogeshwaran-shanmuganathan/Success-Prediction-Analysis-for-Startups--Very good --5cfbae4f6099f6a200783c245abac61d
+
+https://www.kaggle.com/code/tientd95/advanced-pyspark-for-exploratory-data-analysis#8.-Convert-row-objects-to-Spark-Resilient-Distributed-Dataset-(RDD)- Good

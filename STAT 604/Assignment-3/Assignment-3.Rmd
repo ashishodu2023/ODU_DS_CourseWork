@@ -1,0 +1,158 @@
+---
+title: "Assignment-3"
+author: "Ashish Verma"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+## PART 1
+
+## Section 7.1 Solution #4
+### a. Compute a 95% CI for \(\mu\) when \(n=25\) and \(\bar{x} = 58.3\).
+
+```{R}
+# Constants
+x_bar <- 58.3
+sigma <- 3.0
+n1 <- 25
+alpha1 <- 0.05  # 1 - confidence level
+
+# Z-score for 95% confidence level
+z1 <- qnorm(1 - alpha1 / 2)
+
+# Confidence Interval Calculation
+ci1_lower <- x_bar - z1 * (sigma / sqrt(n1))
+ci1_upper <- x_bar + z1 * (sigma / sqrt(n1))
+
+cat("CI1_Lower:",ci1_lower , "\n")
+cat("CI1_Upper:",ci1_upper , "\n")
+```
+
+### b. Compute a 95% CI for \(\mu\) when \(n=100\) and \(\bar{x} = 58.3\).
+```{R}
+# Constants
+n2 <- 100
+
+# Z-score for 95% confidence level
+z2 <- qnorm(1 - alpha1 / 2)
+
+# Confidence Interval Calculation
+ci2_lower <- x_bar - z2 * (sigma / sqrt(n2))
+ci2_upper <- x_bar + z2 * (sigma / sqrt(n2))
+
+cat("CI2_Lower:",ci2_lower , "\n")
+cat("CI2_Upper:",ci2_upper , "\n")
+
+```
+### c. Compute a 99% CI for \(\mu\) when \(n=100\) and \(\bar{x} = 58.3\).
+```{R}
+# Constants
+alpha3 <- 0.01  # 1 - confidence level
+n3 <- 100
+
+# Z-score for 99% confidence level
+z3 <- qnorm(1 - alpha3 / 2)
+
+# Confidence Interval Calculation
+ci3_lower <- x_bar - z3 * (sigma / sqrt(n3))
+ci3_upper <- x_bar + z3 * (sigma / sqrt(n3))
+
+cat("CI3_Lower:",ci3_lower , "\n")
+cat("CI3_Upper:",ci3_upper , "\n")
+```
+### d. Compute a 82% CI for \(\mu\) when \(n=100\) and \(\bar{x} = 58.3\).
+```{R}
+# Constants
+alpha4 <- 0.18  # 1 - confidence level
+n4<-100
+# Z-score for 82% confidence level
+z4 <- qnorm(1 - alpha4 / 2)
+
+# Confidence Interval Calculation
+ci4_lower <- x_bar - z4 * (sigma / sqrt(n4))
+ci4_upper <- x_bar + z4 * (sigma / sqrt(n4))
+
+cat("CI4_Lower:",ci4_lower , "\n")
+cat("CI4_Upper:",ci4_upper , "\n")
+
+```
+### e.How large must be n if the width of the 99%  interval of \(\mu\) is to be \(1.0\).
+```{R}
+# Desired width
+desired_width <- 1.0
+
+# Z-score for 99% confidence level
+z5 <- qnorm(1 - alpha3 / 2)
+
+# Solve for n
+n5 <- ((2 * z5 * sigma) / desired_width)^2
+
+cat("N should be:",round(n5, digits = 0), "\n")
+```
+
+## Section 7.1 Solution #6
+
+Solution(a)
+```{R}
+# Given data for part (a)
+sample_size_a <- 25
+sample_mean_a <- 8439
+z_CI <- 1.645
+sigma_a <- 100
+
+# Margin of error calculation for part (a)
+margin_of_error_a <- z_CI * (sigma_a / sqrt(sample_size_a))
+
+# Confidence interval calculation for part (a)
+lower_limit_a <- sample_mean_a - margin_of_error_a
+upper_limit_a <- sample_mean_a + margin_of_error_a
+
+# Displaying the results for part (a)
+cat(paste("90% Confidence Interval (Part a): [", lower_limit_a, ",", upper_limit_a, "]\n"))
+```
+
+Solution(b)
+```{R}
+# Given data for part (b)
+confidence_level_b <- 0.92
+z_CI<-1.751
+# Margin of error calculation for part (b)
+margin_of_error_b <- z_CI * (sigma_a / sqrt(sample_size_a))
+
+# Confidence interval calculation for part (b)
+lower_limit_b <- sample_mean_a - margin_of_error_b
+upper_limit_b <- sample_mean_a + margin_of_error_b
+
+# Displaying the results for part (b)
+cat("92% Confidence Interval (Part b): [", lower_limit_b, ",", upper_limit_b, "]\n")
+
+``` 
+
+
+## PART 2
+### Solution (a)
+To determine the sample size (\(n\)) for a 90% confidence interval estimate of the population mean, the formula is given by:
+
+\[ n = \frac{Z^2 \times \sigma^2}{E^2} \]
+For a 90% confidence interval, the Z-score is approximately 1.645.
+Substituting the given values into the formula:
+
+```{R}
+# Given values for part (a)
+Z_score_a <- 1.645
+sigma_a <- 22.5
+E_a <- 2
+
+# Sample size calculation for part (a)
+n_a <- ((Z_score_a * sigma_a) / E_a)^2
+cat("N should be:",ceiling(n_a), "\n")
+```
+### Solution (b)
+#### The sample size is inversely proportional to the square of the margin of error (E) and directly
+#### proportional to the square of the Z-score (Z). As the confidence level increases, the Z-score increases, which in
+#### turn increases the sample size. Therefore, when the desired margin of error is fixed, increasing the confidence
+#### level will lead to an increase in the sample size.
+
+

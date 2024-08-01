@@ -1,0 +1,199 @@
+---
+title: "MidTerm-2"
+author: "Ashish Verma"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+## Solution(1)
+### Part(a)
+Since give the variances for both school is equal.
+Checking normality.
+```{R}
+x<-c(69,75,76,80,81,82,86,89,91,92,97)
+y<-c(59,62,66,70,70,75,75,77,78,79,81,84,84,86,94)
+qqnorm(x)
+qqline(x)
+
+qqnorm(y)
+qqline(y)
+```
+Conclusion:The data is normally distributed
+
+Null Hypothesis(H0):mux=muy(There is no significant difference in the mean satisfaction levels between graduates from State School X and State School Y.)
+
+Alternate Hypothesis(Ha):mux!=muy(There is significant difference in the mean satisfaction levels between graduates from State School X and State School Y.
+)
+
+### Part(b)
+```{R}
+x<-c(69,75,76,80,81,82,86,89,91,92,97)
+m<-11
+y<-c(59,62,66,70,70,75,75,77,78,79,81,84,84,86,94)
+n<-15
+alpha<-0.05
+
+xbar<-mean(x)
+ybar<-mean(y)
+xvar<-var(x)
+yvar<-var(y)
+
+# Calculate the pooled variance
+sp2 <- ((m - 1)*xvar + (n - 1)*yvar) / (n + m - 2)
+cat("Pooled variance ",sp2)
+ttesting <- (xbar - ybar) / sqrt(sp2 * (1/n + 1/m))
+cat("T test results",ttesting)
+
+```
+### Part(c)
+```{R}
+degree_of_freedom<-n + m - 2
+pvalue <- 2 * (1 -pt(ttesting,df=degree_of_freedom))
+cat("Pvalue",pvalue)
+
+if (pvalue < alpha) {
+  cat("The difference between the means is barely significant at the 5% level.\n")
+} else {
+  cat("The difference between the means is not barely significant at the 5% level.\n")
+}
+```
+## Solution(2)
+### Part(a)
+
+Null Hypothesis:(H0):varx=vary
+
+Alternate Hypothesis:(Ha):varx<vary
+
+### Part(b)
+```{R}
+# Data for Company X and Y
+company_X <- c(0.08, 0.09, 0.09, 0.10, 0.10, 0.10, 0.10, 0.11, 0.11, 0.12)
+company_Y <- c(0.00, 0.03, 0.04, 0.04, 0.05, 0.05, 0.06, 0.07, 0.08, 0.08)
+varx <- var(company_X)
+vary <- var(company_Y)
+
+# Calculate the F statistic
+F_statistic <- varx / vary
+cat("The F test results",F_statistic)
+```
+### Part(c)
+```{R}
+# Degrees of freedom
+df1 <- length(company_X) - 1
+df2 <- length(company_Y) - 1
+
+# Find the critical value for alpha = 0.05 in a one-tailed test
+alpha <- 0.05
+critical_value <- qf(alpha, df1, df2)
+cat("The critical value",critical_value)
+```
+Since critical value is greater than f testing results, we reject the null hypothesis and accept that var of company x is less then variance of company y.
+
+## Solution(3)
+Null Hypothesis(H0):mu=340
+
+Alternate Hypothesis(HA):mu<340
+### Part(a)
+```{R}
+library(pwr)
+sigma<-15
+munot<-340
+alpha<-0.05
+muprime<-330
+sample<-10
+d<-(muprime - munot)/sigma
+power<-pwr.t.test(n=sample,d=d,alternative = "less",sig.level =alpha,type = "one.sample")$power
+cat("The power of the test",power)
+```
+### Part(b)
+```{R}
+library(pwr)
+muprime<-330
+munot<-340
+alpha<-0.05
+sigma<-15
+p<-0.8
+d<-(muprime - munot)/sigma
+sample_size<-pwr.t.test(power=p,d=d,sig.level = alpha,type = "one.sample",alternative = "less")$n
+cat("The sample size is given",ceiling(sample_size))
+```
+## Solution(4)
+### Part(a)
+Null hypothesis (H0): The mean well-being score before taking Prozac is equal to the mean well-being score after taking Prozac. Mathematically, H0:mud=0, where mud​ is the mean difference in well-being scores (after - before).
+Alternative hypothesis (HA): The mean well-being score before taking Prozac is different from the mean well-being score after taking Prozac.HA:mud!=0
+
+```{R}
+bp<-c(3,0,6,7,4,3,2,1,4)
+ap<-c(5,1,5,7,10,9,7,11,8)
+abp_diff<-c(2,1,1,0,6,6,5,10,4)
+alpha<-0.01
+xy_diff_bar<-mean(abp_diff)
+n<-9
+degree_of_freedom <- n -1 
+sqaure_sum_diff<-sum((abp_diff^2))
+square_whole_diff<-(sum(abp_diff)^2)
+
+paired_std_dev<- sqrt((sqaure_sum_diff -(square_whole_diff/n))/degree_of_freedom)
+cat("The paired standard deviation",paired_std_dev)
+
+ttesting<-xy_diff_bar / (paired_std_dev / sqrt(n))
+cat("T paried test results",ttesting)
+pvalue<-2 * (1- pt(ttesting, df = n - 1))
+if (pvalue < alpha) {
+  cat("Reject the null hypothesis")
+} else {
+  cat("Failed to reject the null hypothesis")
+}
+```
+### Part(b)
+```{R}
+t_crit<-qt(1 -(alpha/2),degree_of_freedom)
+cat("T-critical value",t_crit)
+
+std_error <- paired_std_dev/sqrt(n)
+cat("The standard error",std_error)
+
+error_margin<-std_error*t_crit
+cat("The margin of error",error_margin)
+
+lower_limit<-xy_diff_bar-error_margin
+uppler_limit<-xy_diff_bar+error_margin
+cat("The 99% confidence interval is given by",lower_limit,uppler_limit)
+```
+## Solution(5)
+### Part(a)
+Null hypothesis (H0): Physicians who take aspirin are equally likely to suffer heart attacks as those who take a placebo.
+
+Alternative hypothesis (H1): Physicians who take aspirin are less likely to suffer heart attacks than those who take a placebo.
+
+### Part(b)
+```{R}
+# Define the observed frequencies
+observed <- matrix(c(104, 10933, 189, 10845), nrow = 2, byrow = TRUE)
+
+# Perform chi-square test
+chi_sq_test <- chisq.test(observed)$statistic
+cat("Test results",chi_sq_test)
+
+```
+### Part(c)
+```{R}
+alpha <- 0.05
+p_value <- chisq.test(observed)$p.value
+cat("Pvalue",p_value)
+
+# Compare p-value to alpha
+if (p_value < alpha) {
+  print("Reject the null hypothesis")
+  print("There is evidence to suggest that physicians who take aspirin are less likely to suffer heart attacks than those who take a placebo.")
+} else {
+  print("Fail to reject the null hypothesis")
+  print("There is no evidence to suggest a difference in heart attack rates between physicians who take aspirin and those who take a placebo.")
+}
+```
+
+
+

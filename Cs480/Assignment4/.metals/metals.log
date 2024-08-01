@@ -1,0 +1,1357 @@
+2023.12.02 02:41:21 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\Ashish\Documents\ODU\Cs480\Assignment4, C:\Users\Ashish\Documents\ODU\Cs480\Assignment3, C:\Users\Ashish\PycharmProjects\DeepNeuron, C:\Users\Ashish\PycharmProjects\NeuralNetwork, C:\Users\Ashish\PycharmProjects\CrossWordSolver, C:\Users\Ashish\Documents\TensorflowCertification, C:\Users\Ashish\Documents\ScalaProgramming' for client Visual Studio Code 1.84.2.
+2023.12.02 02:41:21 WARN  Build server is not auto-connectable.
+2023.12.02 02:41:21 WARN  no build tool detected in workspace 'C:\Users\Ashish\Documents\ODU\Cs480\Assignment4'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.12.02 02:43:24 INFO  
+2023.12.02 02:43:24 INFO  Template applied in C:\Users\Ashish\Documents\ODU\Cs480\.\hello-world
+2023.12.02 02:43:24 INFO  
+2023.12.02 02:43:24 INFO  time: ran 'giter8.Giter8' in 5.68s
+2023.12.02 02:48:13 INFO  Shutting down server
+2023.12.02 02:48:13 INFO  shutting down Metals
+2023.12.02 02:48:13 INFO  Exiting server
+2023.12.02 02:48:20 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\Ashish\Documents\ODU\Cs480\Assignment4, C:\Users\Ashish\Documents\ODU\Cs480\Assignment3, C:\Users\Ashish\PycharmProjects\DeepNeuron, C:\Users\Ashish\PycharmProjects\NeuralNetwork, C:\Users\Ashish\PycharmProjects\CrossWordSolver, C:\Users\Ashish\Documents\TensorflowCertification, C:\Users\Ashish\Documents\ScalaProgramming' for client Visual Studio Code 1.84.2.
+2023.12.02 02:48:21 WARN  Build server is not auto-connectable.
+2023.12.02 02:48:21 WARN  no build tool detected in workspace 'C:\Users\Ashish\Documents\ODU\Cs480\Assignment4'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.12.02 02:48:25 WARN  Build server is not auto-connectable.
+2023.12.02 02:48:27 INFO  running 'C:\Users\Ashish\.jabba\jdk\adopt@1.11.0-11\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Ashish\AppData\Local\Temp\metals12692517879133185119\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.12.02 02:48:29 INFO  [info] welcome to sbt 1.9.7 (AdoptOpenJDK Java 11.0.11)
+2023.12.02 02:48:30 INFO  [info] loading settings for project scalaprogramming-build-build from metals.sbt ...
+2023.12.02 02:48:30 INFO  [info] loading project definition from C:\Users\Ashish\Documents\ScalaProgramming\project\project
+2023.12.02 02:48:33 INFO  [info] loading settings for project scalaprogramming-build from metals.sbt ...
+2023.12.02 02:48:33 INFO  [info] loading project definition from C:\Users\Ashish\Documents\ScalaProgramming\project
+2023.12.02 02:48:37 WARN  no build target for: C:\Users\Ashish\Documents\ScalaProgramming\src\main\scala\Main.scala
+2023.12.02 02:48:37 INFO  [success] Generated .bloop\scalaprogramming-build.json
+2023.12.02 02:48:37 INFO  [success] Total time: 4 s, completed Dec 2, 2023, 2:48:37 AM
+2023.12.02 02:48:38 INFO  [info] loading settings for project scalaprogramming from build.sbt ...
+2023.12.02 02:48:38 INFO  [info] set current project to hello-world (in build file:/C:/Users/Ashish/Documents/ScalaProgramming/)
+2023.12.02 02:48:39 INFO  no build target found for C:\Users\Ashish\Documents\ScalaProgramming\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2023.12.02 02:48:40 INFO  [success] Generated .bloop\scalaprogramming.json
+2023.12.02 02:48:40 INFO  [success] Generated .bloop\scalaprogramming-test.json
+2023.12.02 02:48:40 INFO  [success] Total time: 2 s, completed Dec 2, 2023, 2:48:40 AM
+2023.12.02 02:48:40 INFO  time: ran 'sbt bloopInstall' in 12s
+2023.12.02 02:48:40 INFO  Attempting to connect to the build server...
+2023.12.02 02:48:40 INFO  Setting up current java home C:\Users\Ashish\.jabba\jdk\adopt@1.11.0-11 in C:\Users\Ashish\.bloop\bloop.json
+2023.12.02 02:48:40 INFO  time: code lens generation in 3.05s
+2023.12.02 02:48:49 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Ashish\Documents\ScalaProgramming\.metals\bsp.trace.json or C:\Users\Ashish\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.12.02 02:48:51 INFO  Attempting to connect to the build server...
+2023.12.02 02:48:51 INFO  Bloop uses C:\Users\Ashish\.jabba\jdk\adopt@1.11.0-11 defined at C:\Users\Ashish\.bloop\bloop.json
+2023.12.02 02:48:51 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Ashish\Documents\ScalaProgramming\project\.metals\bsp.trace.json or C:\Users\Ashish\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.12.02 02:48:52 WARN  no build target for: C:\Users\Ashish\Documents\ScalaProgramming\src\main\scala\Main.scala
+2023.12.02 02:48:52 WARN  no build target for: C:\Users\Ashish\Documents\ScalaProgramming\src\main\scala\Main.scala
+2023.12.02 02:48:51 INFO  time: Connected to build server in 11s
+2023.12.02 02:48:51 INFO  Connected to Build server: Bloop v1.5.11
+2023.12.02 02:48:58 INFO  time: indexed workspace in 5.82s
+2023.12.02 02:48:58 INFO  compiling scalaprogramming (1 scala source)
+2023.12.02 02:49:00 INFO  Deduplicating compilation of scalaprogramming from bsp client 'Metals 1.1.0' (since 10.314s)
+2023.12.02 02:49:00 INFO  compiling scalaprogramming (1 scala source)
+2023.12.02 02:49:01 INFO  time: compiled scalaprogramming in 1.54s
+2023.12.02 02:50:45 INFO  Disconnecting from Bloop session...
+2023.12.02 02:50:45 INFO  Attempting to connect to the build server...
+2023.12.02 02:50:45 INFO  Shut down connection with build server.
+2023.12.02 02:50:45 INFO  Shut down connection with build server.
+2023.12.02 02:50:45 INFO  No build server found
+2023.12.02 02:50:45 INFO  time: Connected to build server in 5ms
+2023.12.02 02:50:45 WARN  no build target for: C:\Users\Ashish\Documents\ScalaProgramming\src\main\scala\Main.scala
+2023.12.02 02:50:45 INFO  Deleted directories inside .bloop
+2023.12.02 02:50:45 INFO  Attempting to connect to the build server...
+2023.12.02 02:50:45 INFO  Bloop uses C:\Users\Ashish\.jabba\jdk\adopt@1.11.0-11 defined at C:\Users\Ashish\.bloop\bloop.json
+2023.12.02 02:50:49 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Ashish\Documents\ScalaProgramming\.metals\bsp.trace.json or C:\Users\Ashish\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.12.02 02:50:49 INFO  Attempting to connect to the build server...
+2023.12.02 02:50:49 INFO  Bloop uses C:\Users\Ashish\.jabba\jdk\adopt@1.11.0-11 defined at C:\Users\Ashish\.bloop\bloop.json
+2023.12.02 02:50:49 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Ashish\Documents\ScalaProgramming\project\.metals\bsp.trace.json or C:\Users\Ashish\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.12.02 02:50:49 INFO  time: Connected to build server in 3.93s
+2023.12.02 02:50:49 INFO  Connected to Build server: Bloop v1.5.11
+2023.12.02 02:50:50 INFO  time: indexed workspace in 1.01s
+2023.12.02 02:50:51 INFO  compiling scalaprogramming (1 scala source)
+2023.12.02 02:50:53 INFO  time: compiled scalaprogramming in 1.88s
+Dec 02, 2023 2:50:58 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.DebugProvider$NoRunOptionException$: There is nothing to run or test in the current file.
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.DebugProvider$NoRunOptionException$: There is nothing to run or test in the current file.
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:743)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:731)
+	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2112)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: scala.meta.internal.metals.debug.DebugProvider$NoRunOptionException$: There is nothing to run or test in the current file.
+	at scala.meta.internal.metals.debug.DebugProvider$NoRunOptionException$.<clinit>(DebugProvider.scala:929)
+	at scala.meta.internal.metals.debug.DebugProvider.$anonfun$resolveInFile$2(DebugProvider.scala:370)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.DebugProvider.resolveInFile(DebugProvider.scala:341)
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:475)
+	at scala.meta.internal.metals.MetalsLspService.debugDiscovery(MetalsLspService.scala:1857)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:880)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+Dec 02, 2023 2:51:08 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Dec 02, 2023 2:51:09 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Dec 02, 2023 2:51:09 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.12.02 02:55:23 INFO  Shutting down server
+2023.12.02 02:55:23 INFO  shutting down Metals
+2023.12.02 02:55:23 INFO  Shut down connection with build server.
+2023.12.02 02:55:23 INFO  Shut down connection with build server.
+Dec 02, 2023 2:55:23 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.ClosedChannelException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:41)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:361)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$1(BuildServerConnection.scala:361)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:301)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:139)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:131)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpenAndConnected(SocketChannelImpl.java:180)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:452)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:114)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:94)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:172)
+	at java.base/java.io.OutputStream.write(OutputStream.java:122)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:152)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 20 more
+
+2023.12.02 02:55:23 INFO  Cancelling compilation on Bloop server
+2023.12.02 02:55:23 INFO  Exiting server
+2023.12.02 02:56:30 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\Ashish\Documents\ODU\Cs480\Assignment4, C:\Users\Ashish\Documents\ODU\Cs480\Assignment3, C:\Users\Ashish\PycharmProjects\DeepNeuron, C:\Users\Ashish\PycharmProjects\NeuralNetwork, C:\Users\Ashish\PycharmProjects\CrossWordSolver, C:\Users\Ashish\Documents\TensorflowCertification, C:\Users\Ashish\Documents\ScalaProgramming' for client Visual Studio Code 1.84.2.
+2023.12.02 02:56:31 WARN  Build server is not auto-connectable.
+2023.12.02 02:56:31 WARN  no build tool detected in workspace 'C:\Users\Ashish\Documents\ODU\Cs480\Assignment4'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.12.02 02:56:31 INFO  Attempting to connect to the build server...
+2023.12.02 02:56:31 INFO  Bloop uses C:\Users\Ashish\.jabba\jdk\adopt@1.11.0-11 defined at C:\Users\Ashish\.bloop\bloop.json
+2023.12.02 02:56:31 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Ashish\Documents\ScalaProgramming\.metals\bsp.trace.json or C:\Users\Ashish\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.12.02 02:56:31 INFO  Attempting to connect to the build server...
+2023.12.02 02:56:31 INFO  Bloop uses C:\Users\Ashish\.jabba\jdk\adopt@1.11.0-11 defined at C:\Users\Ashish\.bloop\bloop.json
+2023.12.02 02:56:31 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Ashish\Documents\ScalaProgramming\project\.metals\bsp.trace.json or C:\Users\Ashish\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.12.02 02:56:31 INFO  time: Connected to build server in 0.21s
+2023.12.02 02:56:31 INFO  Connected to Build server: Bloop v1.5.11
+2023.12.02 02:56:35 INFO  time: indexed workspace in 3.43s
+2023.12.02 02:56:35 INFO  running 'C:\Users\Ashish\.jabba\jdk\adopt@1.11.0-11\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Ashish\AppData\Local\Temp\metals12472095650972007201\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.12.02 02:56:37 INFO  [info] welcome to sbt 1.9.7 (AdoptOpenJDK Java 11.0.11)
+2023.12.02 02:56:37 INFO  [info] loading settings for project scalaprogramming-build-build from metals.sbt ...
+2023.12.02 02:56:37 INFO  [info] loading project definition from C:\Users\Ashish\Documents\ScalaProgramming\project\project
+2023.12.02 02:56:38 INFO  [info] loading settings for project scalaprogramming-build from metals.sbt ...
+2023.12.02 02:56:38 INFO  [info] loading project definition from C:\Users\Ashish\Documents\ScalaProgramming\project
+2023.12.02 02:56:40 INFO  [success] Generated .bloop\scalaprogramming-build.json
+2023.12.02 02:56:40 INFO  [success] Total time: 1 s, completed Dec 2, 2023, 2:56:40 AM
+2023.12.02 02:56:40 INFO  [info] loading settings for project scalaprogramming from build.sbt ...
+2023.12.02 02:56:40 INFO  [info] set current project to hello-world (in build file:/C:/Users/Ashish/Documents/ScalaProgramming/)
+2023.12.02 02:56:40 INFO  [success] Generated .bloop\scalaprogramming-test.json
+2023.12.02 02:56:40 INFO  [success] Generated .bloop\scalaprogramming.json
+2023.12.02 02:56:40 INFO  [success] Total time: 0 s, completed Dec 2, 2023, 2:56:40 AM
+2023.12.02 02:56:40 INFO  time: ran 'sbt bloopInstall' in 4.79s
+2023.12.02 02:56:40 INFO  Disconnecting from Bloop session...
+2023.12.02 02:56:40 INFO  Shut down connection with build server.
+2023.12.02 02:56:40 INFO  Shut down connection with build server.
+2023.12.02 02:56:40 INFO  Attempting to connect to the build server...
+2023.12.02 02:56:40 INFO  Bloop uses C:\Users\Ashish\.jabba\jdk\adopt@1.11.0-11 defined at C:\Users\Ashish\.bloop\bloop.json
+2023.12.02 02:56:40 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Ashish\Documents\ScalaProgramming\.metals\bsp.trace.json or C:\Users\Ashish\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.12.02 02:56:40 INFO  Attempting to connect to the build server...
+2023.12.02 02:56:40 INFO  Bloop uses C:\Users\Ashish\.jabba\jdk\adopt@1.11.0-11 defined at C:\Users\Ashish\.bloop\bloop.json
+2023.12.02 02:56:40 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Ashish\Documents\ScalaProgramming\project\.metals\bsp.trace.json or C:\Users\Ashish\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.12.02 02:56:40 INFO  time: Connected to build server in 69ms
+2023.12.02 02:56:40 INFO  Connected to Build server: Bloop v1.5.11
+2023.12.02 02:56:41 INFO  time: indexed workspace in 0.97s
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.11/scala-reflect-2.13.11.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.7.14/scalafmt-core_2.13-3.7.14.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.7.14/scalafmt-core_2.13-3.7.14.pom
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.11/scala-reflect-2.13.11.pom
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.11/scala-library-2.13.11.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.7.14/scalafmt-config_2.13-3.7.14.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.7.14/scalafmt-sysops_2.13-3.7.14.pom
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.11/scala-library-2.13.11.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.7.14/scalafmt-config_2.13-3.7.14.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.7.14/scalafmt-sysops_2.13-3.7.14.pom
+Downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.13/2.5.0/scala-collection-compat_2.13-2.5.0.pom
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.11/scala-compiler-2.13.11.pom
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.13/2.5.0/scala-collection-compat_2.13-2.5.0.pom
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.11/scala-compiler-2.13.11.pom
+Downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.13/2.5.0/scala-collection-compat_2.13-2.5.0.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.7.14/scalafmt-sysops_2.13-3.7.14.jar
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.11/scala-library-2.13.11.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.7.14/scalafmt-config_2.13-3.7.14.jar
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.11/scala-reflect-2.13.11.jar
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.11/scala-compiler-2.13.11.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.7.14/scalafmt-config_2.13-3.7.14.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.7.14/scalafmt-core_2.13-3.7.14.jar
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.13/2.5.0/scala-collection-compat_2.13-2.5.0.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.7.14/scalafmt-sysops_2.13-3.7.14.jar
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.11/scala-reflect-2.13.11.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.7.14/scalafmt-core_2.13-3.7.14.jar
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.11/scala-library-2.13.11.jar
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.11/scala-compiler-2.13.11.jar
+2023.12.02 02:57:01 INFO  compiling scalaprogramming (1 scala source)
+2023.12.02 02:57:01 INFO  time: compiled scalaprogramming in 0.62s
+2023.12.02 03:00:50 INFO  compiling scalaprogramming (1 scala source)
+2023.12.02 03:00:50 INFO  time: compiled scalaprogramming in 90ms
+2023.12.02 03:00:55 INFO  compiling scalaprogramming (1 scala source)
+2023.12.02 03:00:55 INFO  time: compiled scalaprogramming in 53ms
+2023.12.02 03:01:21 INFO  compiling scalaprogramming (1 scala source)
+2023.12.02 03:01:21 INFO  time: compiled scalaprogramming in 0.52s
+2023.12.02 03:01:34 INFO  compiling scalaprogramming (1 scala source)
+2023.12.02 03:01:34 INFO  time: compiled scalaprogramming in 50ms
+2023.12.02 03:01:44 INFO  compiling scalaprogramming (1 scala source)
+2023.12.02 03:01:44 INFO  time: compiled scalaprogramming in 51ms
+2023.12.02 03:01:46 INFO  compiling scalaprogramming (1 scala source)
+2023.12.02 03:01:46 INFO  time: compiled scalaprogramming in 50ms
+2023.12.02 03:01:54 INFO  compiling scalaprogramming (1 scala source)
+2023.12.02 03:01:54 INFO  time: compiled scalaprogramming in 39ms
+2023.12.02 03:04:04 INFO  compiling scalaprogramming (1 scala source)
+2023.12.02 03:04:04 INFO  time: compiled scalaprogramming in 0.39s
+2023.12.02 03:04:10 INFO  compiling scalaprogramming (1 scala source)
+2023.12.02 03:04:10 INFO  time: compiled scalaprogramming in 0.36s
+2023.12.02 03:04:21 INFO  compiling scalaprogramming (1 scala source)
+2023.12.02 03:04:21 INFO  time: compiled scalaprogramming in 0.4s
+2023.12.02 03:05:51 INFO  compiling scalaprogramming (1 scala source)
+Dec 02, 2023 3:05:51 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Dec 02, 2023 3:05:51 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Ashish\Documents\ScalaProgramming\.metals\.reports\metals-full\2023-12-02\r_compiler-error_(scalaprogramming)_03-05-51-271.md
+2023.12.02 03:05:51 INFO  time: compiled scalaprogramming in 0.19s
+something's wrong: no file:///C:/Users/Ashish/Documents/ScalaProgramming/src/main/scala/Ifelse.scala in Array[<error>]RangePosition(file:///C:/Users/Ashish/Documents/ScalaProgramming/src/main/scala/Ifelse.scala, 34, 34, 49)
+something's wrong: no file:///C:/Users/Ashish/Documents/ScalaProgramming/src/main/scala/Ifelse.scala in Array[<error>]RangePosition(file:///C:/Users/Ashish/Documents/ScalaProgramming/src/main/scala/Ifelse.scala, 34, 34, 42)
+something's wrong: no file:///C:/Users/Ashish/Documents/ScalaProgramming/src/main/scala/Ifelse.scala in Array[<error>]RangePosition(file:///C:/Users/Ashish/Documents/ScalaProgramming/src/main/scala/Ifelse.scala, 34, 34, 43)
+something's wrong: no file:///C:/Users/Ashish/Documents/ScalaProgramming/src/main/scala/Ifelse.scala in Array[<error>]RangePosition(file:///C:/Users/Ashish/Documents/ScalaProgramming/src/main/scala/Ifelse.scala, 34, 34, 44)
+something's wrong: no file:///C:/Users/Ashish/Documents/ScalaProgramming/src/main/scala/Ifelse.scala in Array[<error>]RangePosition(file:///C:/Users/Ashish/Documents/ScalaProgramming/src/main/scala/Ifelse.scala, 34, 34, 46)
+something's wrong: no file:///C:/Users/Ashish/Documents/ScalaProgramming/src/main/scala/Ifelse.scala in Array[String]RangePosition(file:///C:/Users/Ashish/Documents/ScalaProgramming/src/main/scala/Ifelse.scala, 34, 34, 47)
+something's wrong: no file:///C:/Users/Ashish/Documents/ScalaProgramming/src/main/scala/Ifelse.scala in Array[String]RangePosition(file:///C:/Users/Ashish/Documents/ScalaProgramming/src/main/scala/Ifelse.scala, 34, 34, 47)
+something's wrong: no file:///C:/Users/Ashish/Documents/ScalaProgramming/src/main/scala/Ifelse.scala in Array[String]RangePosition(file:///C:/Users/Ashish/Documents/ScalaProgramming/src/main/scala/Ifelse.scala, 34, 34, 47)
+2023.12.02 03:06:53 INFO  compiling scalaprogramming (1 scala source)
+2023.12.02 03:06:53 INFO  time: compiled scalaprogramming in 54ms
+2023.12.02 03:07:31 INFO  compiling scalaprogramming (1 scala source)
+2023.12.02 03:07:31 INFO  time: compiled scalaprogramming in 0.35s
+2023.12.02 03:08:40 INFO  Shutting down server
+2023.12.02 03:08:40 INFO  shutting down Metals
+2023.12.02 03:08:40 INFO  Shut down connection with build server.
+2023.12.02 03:08:40 INFO  Shut down connection with build server.
+2023.12.02 03:08:40 INFO  Exiting server
+2023.12.06 20:01:36 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\Ashish\Documents\ODU\Cs480\Assignment4, C:\Users\Ashish\Documents\ODU\Cs480\Assignment3, C:\Users\Ashish\PycharmProjects\DeepNeuron, C:\Users\Ashish\PycharmProjects\NeuralNetwork, C:\Users\Ashish\PycharmProjects\CrossWordSolver, C:\Users\Ashish\Documents\TensorflowCertification, C:\Users\Ashish\Documents\ScalaProgramming' for client Visual Studio Code 1.84.2.
+2023.12.06 20:01:37 WARN  Build server is not auto-connectable.
+2023.12.06 20:01:37 WARN  no build tool detected in workspace 'C:\Users\Ashish\Documents\ODU\Cs480\Assignment4'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.12.06 20:01:37 INFO  Attempting to connect to the build server...
+2023.12.06 20:01:37 INFO  Bloop uses C:\Users\Ashish\.jabba\jdk\adopt@1.11.0-11 defined at C:\Users\Ashish\.bloop\bloop.json
+2023.12.06 20:01:37 INFO  skipping build import with status 'Installed'
+2023.12.06 20:01:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Ashish\Documents\ScalaProgramming\.metals\bsp.trace.json or C:\Users\Ashish\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.12.06 20:01:42 INFO  Attempting to connect to the build server...
+2023.12.06 20:01:42 INFO  Bloop uses C:\Users\Ashish\.jabba\jdk\adopt@1.11.0-11 defined at C:\Users\Ashish\.bloop\bloop.json
+2023.12.06 20:01:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Ashish\Documents\ScalaProgramming\project\.metals\bsp.trace.json or C:\Users\Ashish\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.12.06 20:01:42 INFO  time: Connected to build server in 6.07s
+2023.12.06 20:01:42 INFO  Connected to Build server: Bloop v1.5.11
+2023.12.06 20:01:43 INFO  time: Imported build in 0.12s
+2023.12.06 20:01:49 INFO  time: indexed workspace in 6.19s
+2023.12.06 20:13:24 INFO  Shutting down server
+2023.12.06 20:13:24 INFO  shutting down Metals
+2023.12.06 20:13:24 INFO  Shut down connection with build server.
+2023.12.06 20:13:24 INFO  Shut down connection with build server.
+2023.12.06 20:13:24 INFO  Exiting server
+2023.12.07 14:03:58 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\Ashish\Documents\ODU\Cs480\Assignment4, C:\Users\Ashish\Documents\ODU\Cs480\Assignment3, C:\Users\Ashish\PycharmProjects\DeepNeuron, C:\Users\Ashish\PycharmProjects\NeuralNetwork, C:\Users\Ashish\PycharmProjects\CrossWordSolver, C:\Users\Ashish\Documents\TensorflowCertification, C:\Users\Ashish\Documents\ScalaProgramming' for client Visual Studio Code 1.84.2.
+2023.12.07 14:03:58 WARN  Build server is not auto-connectable.
+2023.12.07 14:03:58 WARN  no build tool detected in workspace 'C:\Users\Ashish\Documents\ODU\Cs480\Assignment4'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.12.07 14:03:59 INFO  Attempting to connect to the build server...
+2023.12.07 14:03:59 INFO  Bloop uses C:\Users\Ashish\.jabba\jdk\adopt@1.11.0-11 defined at C:\Users\Ashish\.bloop\bloop.json
+2023.12.07 14:03:58 INFO  skipping build import with status 'Installed'
+2023.12.07 14:04:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Ashish\Documents\ScalaProgramming\.metals\bsp.trace.json or C:\Users\Ashish\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.12.07 14:04:04 INFO  Attempting to connect to the build server...
+2023.12.07 14:04:04 INFO  Bloop uses C:\Users\Ashish\.jabba\jdk\adopt@1.11.0-11 defined at C:\Users\Ashish\.bloop\bloop.json
+2023.12.07 14:04:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Ashish\Documents\ScalaProgramming\project\.metals\bsp.trace.json or C:\Users\Ashish\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.12.07 14:04:04 INFO  time: Connected to build server in 6.5s
+2023.12.07 14:04:04 INFO  Connected to Build server: Bloop v1.5.11
+2023.12.07 14:04:05 INFO  time: Imported build in 0.15s
+Dec 07, 2023 2:04:06 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Dec 07, 2023 2:04:06 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.12.07 14:04:12 INFO  time: indexed workspace in 6.63s
+2023.12.07 15:17:03 INFO  Shutting down server
+2023.12.07 15:17:03 INFO  shutting down Metals
+2023.12.07 15:17:03 INFO  Shut down connection with build server.
+2023.12.07 15:17:03 INFO  Shut down connection with build server.
+2023.12.07 15:17:03 INFO  Exiting server
+2023.12.09 16:29:33 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\Ashish\Documents\ODU\Cs480\Assignment4, C:\Users\Ashish\Documents\ODU\Cs480\Assignment3, C:\Users\Ashish\PycharmProjects\DeepNeuron, C:\Users\Ashish\PycharmProjects\NeuralNetwork, C:\Users\Ashish\PycharmProjects\CrossWordSolver, C:\Users\Ashish\Documents\TensorflowCertification, C:\Users\Ashish\Documents\ScalaProgramming' for client Visual Studio Code 1.85.0.
+2023.12.09 16:29:33 WARN  Build server is not auto-connectable.
+2023.12.09 16:29:33 WARN  no build tool detected in workspace 'C:\Users\Ashish\Documents\ODU\Cs480\Assignment4'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.12.09 16:29:33 INFO  Attempting to connect to the build server...
+2023.12.09 16:29:33 INFO  Bloop uses C:\Users\Ashish\.jabba\jdk\adopt@1.11.0-11 defined at C:\Users\Ashish\.bloop\bloop.json
+2023.12.09 16:29:34 INFO  skipping build import with status 'Installed'
+2023.12.09 16:29:39 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Ashish\Documents\ScalaProgramming\.metals\bsp.trace.json or C:\Users\Ashish\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.12.09 16:29:39 INFO  Attempting to connect to the build server...
+2023.12.09 16:29:39 INFO  Bloop uses C:\Users\Ashish\.jabba\jdk\adopt@1.11.0-11 defined at C:\Users\Ashish\.bloop\bloop.json
+2023.12.09 16:29:39 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Ashish\Documents\ScalaProgramming\project\.metals\bsp.trace.json or C:\Users\Ashish\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.12.09 16:29:39 INFO  time: Connected to build server in 6.4s
+2023.12.09 16:29:39 INFO  Connected to Build server: Bloop v1.5.11
+2023.12.09 16:29:40 INFO  time: Imported build in 0.12s
+2023.12.09 16:29:46 INFO  time: indexed workspace in 5.91s
+2023.12.09 16:29:59 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 16:30:00 INFO  time: compiled scalaprogramming in 1.38s
+2023.12.09 16:30:00 INFO  compiling scalaprogramming (3 scala sources)
+2023.12.09 16:30:00 INFO  time: compiled scalaprogramming in 0.1s
+2023.12.09 16:30:03 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 16:30:03 INFO  time: compiled scalaprogramming in 0.25s
+2023.12.09 16:30:03 INFO  compiling scalaprogramming (3 scala sources)
+2023.12.09 16:30:03 INFO  time: compiled scalaprogramming in 30ms
+2023.12.09 16:32:16 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 16:32:16 INFO  time: compiled scalaprogramming in 0.82s
+2023.12.09 16:32:16 INFO  compiling scalaprogramming (3 scala sources)
+2023.12.09 16:32:16 INFO  time: compiled scalaprogramming in 22ms
+2023.12.09 16:33:28 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 16:33:28 INFO  time: compiled scalaprogramming in 40ms
+2023.12.09 16:33:36 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 16:33:36 INFO  time: compiled scalaprogramming in 33ms
+2023.12.09 16:33:39 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 16:33:39 INFO  time: compiled scalaprogramming in 35ms
+2023.12.09 16:33:41 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 16:33:41 INFO  time: compiled scalaprogramming in 35ms
+2023.12.09 16:33:50 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 16:33:50 INFO  time: compiled scalaprogramming in 32ms
+2023.12.09 16:34:37 WARN  Using indexes to guess the definition of improve
+2023.12.09 16:34:37 WARN  Using indexes to guess the definition of sqrtIter
+2023.12.09 16:34:41 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 16:34:41 INFO  time: compiled scalaprogramming in 32ms
+2023.12.09 16:34:43 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 16:34:43 INFO  time: compiled scalaprogramming in 30ms
+2023.12.09 16:34:54 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 16:34:54 INFO  time: compiled scalaprogramming in 32ms
+2023.12.09 16:35:02 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 16:35:02 INFO  time: compiled scalaprogramming in 31ms
+2023.12.09 16:35:04 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 16:35:04 INFO  time: compiled scalaprogramming in 35ms
+2023.12.09 16:35:06 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 16:35:06 INFO  time: compiled scalaprogramming in 31ms
+2023.12.09 16:35:08 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 16:35:08 INFO  time: compiled scalaprogramming in 33ms
+2023.12.09 16:36:26 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 16:36:26 INFO  time: compiled scalaprogramming in 30ms
+2023.12.09 16:36:54 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 16:36:54 INFO  time: compiled scalaprogramming in 31ms
+2023.12.09 16:36:58 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 16:36:58 INFO  time: compiled scalaprogramming in 28ms
+2023.12.09 16:37:00 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 16:37:00 INFO  time: compiled scalaprogramming in 36ms
+2023.12.09 16:37:18 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 16:37:18 INFO  time: compiled scalaprogramming in 29ms
+2023.12.09 16:37:24 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 16:37:24 INFO  time: compiled scalaprogramming in 29ms
+2023.12.09 16:37:26 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 16:37:26 INFO  time: compiled scalaprogramming in 29ms
+2023.12.09 16:39:29 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 16:39:29 INFO  time: compiled scalaprogramming in 29ms
+2023.12.09 16:40:26 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 16:40:26 INFO  time: compiled scalaprogramming in 30ms
+2023.12.09 22:06:32 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\Ashish\Documents\ODU\Cs480\Assignment4, C:\Users\Ashish\Documents\ODU\Cs480\Assignment3, C:\Users\Ashish\PycharmProjects\DeepNeuron, C:\Users\Ashish\PycharmProjects\NeuralNetwork, C:\Users\Ashish\PycharmProjects\CrossWordSolver, C:\Users\Ashish\Documents\TensorflowCertification, C:\Users\Ashish\Documents\ScalaProgramming' for client Visual Studio Code 1.85.0.
+2023.12.09 22:06:43 WARN  Build server is not auto-connectable.
+2023.12.09 22:06:43 WARN  no build tool detected in workspace 'C:\Users\Ashish\Documents\ODU\Cs480\Assignment4'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.12.09 22:06:43 INFO  Attempting to connect to the build server...
+2023.12.09 22:06:43 INFO  Bloop uses C:\Users\Ashish\.jabba\jdk\adopt@1.11.0-11 defined at C:\Users\Ashish\.bloop\bloop.json
+2023.12.09 22:06:43 INFO  skipping build import with status 'Installed'
+2023.12.09 22:06:49 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Ashish\Documents\ScalaProgramming\.metals\bsp.trace.json or C:\Users\Ashish\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.12.09 22:06:49 INFO  Attempting to connect to the build server...
+2023.12.09 22:06:49 INFO  Bloop uses C:\Users\Ashish\.jabba\jdk\adopt@1.11.0-11 defined at C:\Users\Ashish\.bloop\bloop.json
+2023.12.09 22:06:49 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Ashish\Documents\ScalaProgramming\project\.metals\bsp.trace.json or C:\Users\Ashish\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.12.09 22:06:49 INFO  time: Connected to build server in 6.53s
+2023.12.09 22:06:49 INFO  Connected to Build server: Bloop v1.5.11
+2023.12.09 22:06:49 INFO  time: Imported build in 0.14s
+2023.12.09 22:06:56 INFO  time: indexed workspace in 6.31s
+2023.12.09 22:06:56 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 22:06:58 INFO  time: compiled scalaprogramming in 1.21s
+2023.12.09 22:07:00 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 22:07:00 INFO  time: compiled scalaprogramming in 64ms
+2023.12.09 22:07:00 ERROR scalafmt: C:\Users\Ashish\Documents\ScalaProgramming\src\main\scala\squareroot.scala:10: error: [dialect scala213] then expected but else found
+        else  sqrtIter(improve(guess,x)x) 
+        ^
+2023.12.09 22:07:04 ERROR scalafmt: C:\Users\Ashish\Documents\ScalaProgramming\src\main\scala\squareroot.scala:10: error: [dialect scala213] then expected but else found
+        else  sqrtIter(improve(guess,x)x) 
+        ^
+2023.12.09 22:08:07 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 22:08:07 INFO  time: compiled scalaprogramming in 49ms
+2023.12.09 22:08:33 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 22:08:33 INFO  time: compiled scalaprogramming in 49ms
+2023.12.09 22:09:22 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 22:09:22 INFO  time: compiled scalaprogramming in 45ms
+2023.12.09 22:09:57 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 22:09:57 INFO  time: compiled scalaprogramming in 0.3s
+2023.12.09 22:10:01 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 22:10:01 INFO  time: compiled scalaprogramming in 0.1s
+2023.12.09 22:10:03 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 22:10:03 INFO  time: compiled scalaprogramming in 74ms
+2023.12.09 22:10:34 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 22:10:34 INFO  time: compiled scalaprogramming in 70ms
+2023.12.09 22:11:22 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 22:11:22 INFO  time: compiled scalaprogramming in 77ms
+2023.12.09 22:12:02 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 22:12:02 INFO  time: compiled scalaprogramming in 56ms
+2023.12.09 22:12:10 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 22:12:11 INFO  time: compiled scalaprogramming in 1.07s
+2023.12.09 22:12:11 INFO  compiling scalaprogramming (3 scala sources)
+2023.12.09 22:12:11 INFO  time: compiled scalaprogramming in 24ms
+2023.12.09 22:12:13 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 22:12:13 INFO  time: compiled scalaprogramming in 0.47s
+2023.12.09 22:12:13 INFO  compiling scalaprogramming (3 scala sources)
+2023.12.09 22:12:13 INFO  time: compiled scalaprogramming in 26ms
+2023.12.09 22:12:27 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 22:12:27 INFO  time: compiled scalaprogramming in 0.48s
+2023.12.09 22:12:27 INFO  compiling scalaprogramming (3 scala sources)
+2023.12.09 22:12:27 INFO  time: compiled scalaprogramming in 21ms
+2023.12.09 22:14:13 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 22:14:13 INFO  time: compiled scalaprogramming in 35ms
+2023.12.09 22:14:30 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 22:14:30 INFO  time: compiled scalaprogramming in 39ms
+2023.12.09 22:15:35 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 22:15:35 INFO  time: compiled scalaprogramming in 41ms
+2023.12.09 22:17:24 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 22:17:24 INFO  time: compiled scalaprogramming in 39ms
+2023.12.09 22:17:30 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 22:17:30 INFO  time: compiled scalaprogramming in 32ms
+2023.12.09 22:17:30 WARN  Using indexes to guess the definition of isGoodEnough
+2023.12.09 22:17:41 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 22:17:41 INFO  time: compiled scalaprogramming in 41ms
+2023.12.09 22:18:00 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 22:18:00 INFO  time: compiled scalaprogramming in 31ms
+2023.12.09 22:19:37 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 22:19:37 INFO  time: compiled scalaprogramming in 38ms
+2023.12.09 22:19:45 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 22:19:45 INFO  time: compiled scalaprogramming in 31ms
+2023.12.09 22:19:52 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 22:19:52 INFO  time: compiled scalaprogramming in 45ms
+2023.12.09 22:20:06 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 22:20:06 INFO  time: compiled scalaprogramming in 36ms
+2023.12.09 22:20:08 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 22:20:08 INFO  time: compiled scalaprogramming in 31ms
+2023.12.09 22:20:24 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 22:20:24 INFO  time: compiled scalaprogramming in 33ms
+2023.12.09 22:20:31 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 22:20:31 INFO  time: compiled scalaprogramming in 33ms
+2023.12.09 22:20:44 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 22:20:44 INFO  time: compiled scalaprogramming in 31ms
+2023.12.09 22:21:03 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 22:21:03 INFO  time: compiled scalaprogramming in 31ms
+2023.12.09 22:21:14 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 22:21:14 INFO  time: compiled scalaprogramming in 31ms
+2023.12.09 22:21:16 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 22:21:16 INFO  time: compiled scalaprogramming in 33ms
+2023.12.09 22:22:54 INFO  file:///C:/Users/Ashish/Documents/ScalaProgramming/src/main/scala/squareroot.scala:7:53: stale bloop error: '(' expected but identifier found.
+    def sqrtIter(guess:Double, x:Double):Double =if isGoodEnough(guess,x) then guess else sqrtIter(improve(guess,x),x)
+                                                    ^
+2023.12.09 22:22:54 INFO  file:///C:/Users/Ashish/Documents/ScalaProgramming/src/main/scala/squareroot.scala:9:5: stale bloop error: illegal start of simple expression
+    def sqrt(x:Double) = sqrtIter(1.0,x)
+    ^
+2023.12.09 22:22:54 INFO  file:///C:/Users/Ashish/Documents/ScalaProgramming/src/main/scala/squareroot.scala:7:53: stale bloop error: '(' expected but identifier found.
+    def sqrtIter(guess:Double, x:Double):Double =if isGoodEnough(guess,x) then guess else sqrtIter(improve(guess,x),x)
+                                                    ^
+2023.12.09 22:22:54 INFO  file:///C:/Users/Ashish/Documents/ScalaProgramming/src/main/scala/squareroot.scala:9:5: stale bloop error: illegal start of simple expression
+    def sqrt(x:Double) = sqrtIter(1.0,x)
+    ^
+2023.12.09 22:22:55 INFO  file:///C:/Users/Ashish/Documents/ScalaProgramming/src/main/scala/squareroot.scala:7:53: stale bloop error: '(' expected but identifier found.
+    def sqrtIter(guess:Double, x:Double):Double =if isGoodEnough(guess,x) then guess else sqrtIter(improve(guess,x),x)
+                                                    ^
+2023.12.09 22:22:55 INFO  file:///C:/Users/Ashish/Documents/ScalaProgramming/src/main/scala/squareroot.scala:9:5: stale bloop error: illegal start of simple expression
+    def sqrt(x:Double) = sqrtIter(1.0,x)
+    ^
+2023.12.09 22:23:02 INFO  file:///C:/Users/Ashish/Documents/ScalaProgramming/src/main/scala/squareroot.scala:7:53: stale bloop error: '(' expected but identifier found.
+    def sqrtIter(guess:Double, x:Double):Double =if isGoodEnough(guess,x) then guess else sqrtIter(improve(guess,x),x)
+                                                    ^
+2023.12.09 22:23:02 INFO  file:///C:/Users/Ashish/Documents/ScalaProgramming/src/main/scala/squareroot.scala:9:5: stale bloop error: illegal start of simple expression
+    def sqrt(x:Double) = sqrtIter(1.0,x)
+    ^
+2023.12.09 22:23:03 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 22:23:03 INFO  time: compiled scalaprogramming in 34ms
+2023.12.09 22:23:05 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 22:23:05 INFO  time: compiled scalaprogramming in 34ms
+2023.12.09 22:23:57 WARN  Using indexes to guess the definition of Array
+2023.12.09 22:23:58 INFO  no build target found for /scala/Predef.scala. Using presentation compiler with project's scala-library version: 3.3.1
+Dec 09, 2023 10:23:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1270
+Dec 09, 2023 10:23:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1271
+Dec 09, 2023 10:23:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1274
+Dec 09, 2023 10:23:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1272
+2023.12.09 22:23:59 WARN  Using indexes to guess the definition of sqrt
+2023.12.09 22:24:00 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 22:24:00 INFO  time: compiled scalaprogramming in 43ms
+Dec 09, 2023 10:24:00 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Ashish\Documents\ODU\Cs480\Assignment4\.metals\.reports\metals-full\2023-12-09\r_compiler-error_22-24-00-806.md
+Dec 09, 2023 10:24:01 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Ashish\Documents\ODU\Cs480\Assignment4\.metals\.reports\metals-full\2023-12-09\r_compiler-error_22-24-01-213.md
+2023.12.09 22:26:23 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 22:26:23 INFO  time: compiled scalaprogramming in 33ms
+2023.12.09 22:26:36 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 22:26:36 INFO  time: compiled scalaprogramming in 31ms
+2023.12.09 22:26:46 WARN  Using indexes to guess the definition of sqrt
+2023.12.09 22:26:46 WARN  Using indexes to guess the definition of sqrt
+2023.12.09 22:26:49 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 22:26:49 INFO  time: compiled scalaprogramming in 31ms
+2023.12.09 22:28:08 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 22:28:08 INFO  time: compiled scalaprogramming in 30ms
+2023.12.09 22:28:15 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 22:28:15 INFO  time: compiled scalaprogramming in 31ms
+2023.12.09 22:28:33 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 22:28:33 INFO  time: compiled scalaprogramming in 33ms
+2023.12.09 22:28:40 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 22:28:40 INFO  time: compiled scalaprogramming in 32ms
+2023.12.09 22:29:21 WARN  Using indexes to guess the definition of isGoodEnough
+2023.12.09 22:29:21 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 22:29:21 INFO  time: compiled scalaprogramming in 44ms
+2023.12.09 22:30:20 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 22:30:20 INFO  time: compiled scalaprogramming in 54ms
+2023.12.09 22:30:50 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 22:30:50 INFO  time: compiled scalaprogramming in 0.48s
+2023.12.09 22:30:50 INFO  compiling scalaprogramming (3 scala sources)
+2023.12.09 22:30:50 INFO  time: compiled scalaprogramming in 15ms
+2023.12.09 22:31:01 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 22:31:01 INFO  time: compiled scalaprogramming in 54ms
+2023.12.09 22:31:14 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 22:31:14 INFO  time: compiled scalaprogramming in 37ms
+2023.12.09 22:33:44 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 22:33:44 INFO  time: compiled scalaprogramming in 36ms
+2023.12.09 22:33:56 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 22:33:56 INFO  time: compiled scalaprogramming in 34ms
+2023.12.09 22:33:59 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 22:33:59 INFO  time: compiled scalaprogramming in 29ms
+2023.12.09 22:35:13 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 22:35:13 INFO  time: compiled scalaprogramming in 29ms
+2023.12.09 22:39:35 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 22:39:35 INFO  time: compiled scalaprogramming in 30ms
+2023.12.09 22:39:58 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 22:39:58 INFO  time: compiled scalaprogramming in 25ms
+2023.12.09 22:40:04 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 22:40:04 INFO  time: compiled scalaprogramming in 27ms
+2023.12.09 22:40:41 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 22:40:41 INFO  time: compiled scalaprogramming in 26ms
+2023.12.09 22:40:46 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 22:40:46 INFO  time: compiled scalaprogramming in 26ms
+2023.12.09 22:40:52 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 22:40:52 INFO  time: compiled scalaprogramming in 27ms
+2023.12.09 22:41:16 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 22:41:16 INFO  time: compiled scalaprogramming in 28ms
+2023.12.09 22:41:20 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 22:41:20 INFO  time: compiled scalaprogramming in 27ms
+2023.12.09 22:42:26 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 22:42:26 INFO  time: compiled scalaprogramming in 29ms
+2023.12.09 22:42:29 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 22:42:29 INFO  time: compiled scalaprogramming in 27ms
+2023.12.09 22:42:41 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 22:42:41 INFO  time: compiled scalaprogramming in 32ms
+2023.12.09 22:42:44 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 22:42:44 INFO  time: compiled scalaprogramming in 29ms
+2023.12.09 22:42:46 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 22:42:46 INFO  time: compiled scalaprogramming in 26ms
+2023.12.09 22:43:03 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 22:43:03 INFO  time: compiled scalaprogramming in 27ms
+2023.12.09 22:56:35 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 22:56:35 INFO  time: compiled scalaprogramming in 27ms
+2023.12.09 22:57:40 WARN  Using indexes to guess the definition of improve
+2023.12.09 22:57:40 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 22:57:40 INFO  time: compiled scalaprogramming in 38ms
+2023.12.09 22:57:42 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 22:57:42 INFO  time: compiled scalaprogramming in 30ms
+Dec 09, 2023 10:57:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2111
+2023.12.09 22:57:59 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 22:57:59 INFO  time: compiled scalaprogramming in 27ms
+2023.12.09 22:58:01 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 22:58:01 INFO  time: compiled scalaprogramming in 28ms
+2023.12.09 22:58:44 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 22:58:44 INFO  time: compiled scalaprogramming in 27ms
+2023.12.09 22:58:46 INFO  Shutting down server
+2023.12.09 22:58:46 INFO  shutting down Metals
+2023.12.09 22:58:46 INFO  Shut down connection with build server.
+2023.12.09 22:58:46 INFO  Shut down connection with build server.
+Dec 09, 2023 10:58:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.ClosedChannelException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:41)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:361)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$1(BuildServerConnection.scala:361)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:301)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:139)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:131)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpenAndConnected(SocketChannelImpl.java:180)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:452)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:114)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:94)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:172)
+	at java.base/java.io.OutputStream.write(OutputStream.java:122)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:152)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 20 more
+
+2023.12.09 22:58:46 INFO  Cancelling compilation on Bloop server
+2023.12.09 22:58:46 INFO  Exiting server
+2023.12.09 23:04:08 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\Ashish\Documents\ODU\Cs480\Assignment4, C:\Users\Ashish\Documents\ODU\Cs480\Assignment3, C:\Users\Ashish\PycharmProjects\DeepNeuron, C:\Users\Ashish\PycharmProjects\NeuralNetwork, C:\Users\Ashish\PycharmProjects\CrossWordSolver, C:\Users\Ashish\Documents\TensorflowCertification, C:\Users\Ashish\Documents\ScalaProgramming' for client Visual Studio Code 1.85.0.
+2023.12.09 23:04:08 WARN  Build server is not auto-connectable.
+2023.12.09 23:04:08 WARN  no build tool detected in workspace 'C:\Users\Ashish\Documents\ODU\Cs480\Assignment4'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.12.09 23:04:08 INFO  Attempting to connect to the build server...
+2023.12.09 23:04:08 INFO  Bloop uses C:\Users\Ashish\.jabba\jdk\adopt@1.11.0-11 defined at C:\Users\Ashish\.bloop\bloop.json
+2023.12.09 23:04:08 INFO  skipping build import with status 'Installed'
+2023.12.09 23:04:08 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Ashish\Documents\ScalaProgramming\.metals\bsp.trace.json or C:\Users\Ashish\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.12.09 23:04:08 INFO  Attempting to connect to the build server...
+2023.12.09 23:04:08 INFO  Bloop uses C:\Users\Ashish\.jabba\jdk\adopt@1.11.0-11 defined at C:\Users\Ashish\.bloop\bloop.json
+2023.12.09 23:04:08 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Ashish\Documents\ScalaProgramming\project\.metals\bsp.trace.json or C:\Users\Ashish\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.12.09 23:04:08 INFO  time: Connected to build server in 0.26s
+2023.12.09 23:04:08 INFO  Connected to Build server: Bloop v1.5.11
+2023.12.09 23:04:11 INFO  no build target found for C:\Users\Ashish\Documents\ScalaProgramming\src\main\scala\squareroot.scala. Using presentation compiler with project's scala-library version: 3.3.1
+Dec 09, 2023 11:04:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4
+2023.12.09 23:04:12 INFO  no build target found for C:\Users\Ashish\Documents\ScalaProgramming\src\main\scala\squareroot.scala. Using presentation compiler with project's scala-library version: 3.3.1
+Dec 09, 2023 11:04:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7
+Dec 09, 2023 11:04:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10
+Dec 09, 2023 11:04:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13
+2023.12.09 23:04:15 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 23:04:15 INFO  time: compiled scalaprogramming in 75ms
+2023.12.09 23:04:16 INFO  time: indexed workspace in 5.53s
+2023.12.09 23:04:17 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 23:04:17 INFO  time: compiled scalaprogramming in 0.1s
+2023.12.09 23:04:19 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 23:04:19 INFO  time: compiled scalaprogramming in 29ms
+2023.12.09 23:04:31 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 23:04:31 INFO  time: compiled scalaprogramming in 29ms
+2023.12.09 23:04:33 INFO  compiling scalaprogramming (1 scala source)
+2023.12.09 23:04:33 INFO  time: compiled scalaprogramming in 28ms
+2023.12.09 23:04:35 INFO  Shutting down server
+2023.12.09 23:04:35 INFO  shutting down Metals
+2023.12.09 23:04:35 INFO  Shut down connection with build server.
+2023.12.09 23:04:35 INFO  Shut down connection with build server.
+Dec 09, 2023 11:04:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.ClosedChannelException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:41)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:361)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$1(BuildServerConnection.scala:361)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:301)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:139)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:131)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.nio.channels.ClosedChannelException
+	at java.base/sun.nio.ch.SocketChannelImpl.ensureOpenAndConnected(SocketChannelImpl.java:180)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:452)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:114)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:94)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:172)
+	at java.base/java.io.OutputStream.write(OutputStream.java:122)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:152)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 20 more
+
+2023.12.09 23:04:35 INFO  Cancelling compilation on Bloop server
+2023.12.09 23:04:35 INFO  Exiting server
+2023.12.13 17:25:59 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\Ashish\Documents\ODU\Cs480\Assignment4, C:\Users\Ashish\Documents\ODU\Cs480\Assignment3, C:\Users\Ashish\PycharmProjects\DeepNeuron, C:\Users\Ashish\PycharmProjects\NeuralNetwork, C:\Users\Ashish\PycharmProjects\CrossWordSolver, C:\Users\Ashish\Documents\TensorflowCertification, C:\Users\Ashish\Documents\ScalaProgramming' for client Visual Studio Code 1.85.0.
+2023.12.13 17:25:59 WARN  Build server is not auto-connectable.
+2023.12.13 17:25:59 WARN  no build tool detected in workspace 'C:\Users\Ashish\Documents\ODU\Cs480\Assignment4'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.12.13 17:25:59 INFO  Attempting to connect to the build server...
+2023.12.13 17:25:59 INFO  Bloop uses C:\Users\Ashish\.jabba\jdk\adopt@1.11.0-11 defined at C:\Users\Ashish\.bloop\bloop.json
+2023.12.13 17:25:59 INFO  skipping build import with status 'Installed'
+2023.12.13 17:26:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Ashish\Documents\ScalaProgramming\.metals\bsp.trace.json or C:\Users\Ashish\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.12.13 17:26:05 INFO  logging to files C:\Users\Ashish\Documents\ODU\Cs480\Assignment4\.metals\metals.log,C:\Users\Ashish\Documents\ScalaProgramming\.metals\metals.log
+2023.12.13 17:26:05 INFO  Attempting to connect to the build server...
+2023.12.13 17:26:05 INFO  Bloop uses C:\Users\Ashish\.jabba\jdk\adopt@1.11.0-11 defined at C:\Users\Ashish\.bloop\bloop.json
+2023.12.13 17:26:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Ashish\Documents\ScalaProgramming\project\.metals\bsp.trace.json or C:\Users\Ashish\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.12.13 17:26:05 INFO  time: Connected to build server in 6.5s
+2023.12.13 17:26:05 INFO  Connected to Build server: Bloop v1.5.11
+2023.12.13 17:26:06 INFO  time: Imported build in 0.1s
+2023.12.13 17:26:15 INFO  time: indexed workspace in 8.8s
+2023.12.13 17:26:15 INFO  compiling scalaprogramming (1 scala source)
+2023.12.13 17:26:16 INFO  time: compiled scalaprogramming in 1.2s
+2023.12.13 17:26:19 INFO  compiling scalaprogramming (1 scala source)
+2023.12.13 17:26:19 INFO  time: compiled scalaprogramming in 67ms
+2023.12.13 17:58:22 INFO  Shutting down server
+2023.12.13 17:58:22 INFO  shutting down Metals
+2023.12.13 17:58:22 INFO  Shut down connection with build server.
+2023.12.13 17:58:22 INFO  Shut down connection with build server.
+2023.12.13 17:58:22 INFO  Exiting server
+2023.12.14 20:57:12 INFO  Started: Metals version 1.2.0 in folders 'C:\Users\Ashish\Documents\ODU\Cs480\Assignment4, C:\Users\Ashish\Documents\ODU\Cs480\Assignment3, C:\Users\Ashish\PycharmProjects\DeepNeuron, C:\Users\Ashish\PycharmProjects\NeuralNetwork, C:\Users\Ashish\PycharmProjects\CrossWordSolver, C:\Users\Ashish\Documents\TensorflowCertification, C:\Users\Ashish\Documents\ScalaProgramming, C:\Users\Ashish\Documents\apss' for client Visual Studio Code 1.85.1.
+2023.12.14 20:57:13 WARN  Build server is not auto-connectable.
+2023.12.14 20:57:13 WARN  no build tool detected in workspace 'C:\Users\Ashish\Documents\ODU\Cs480\Assignment4'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.12.14 20:57:13 INFO  Attempting to connect to the build server...
+2023.12.14 20:57:13 INFO  Bloop uses C:\Users\Ashish\.jabba\jdk\adopt@1.11.0-11 defined at C:\Users\Ashish\.bloop\bloop.json
+2023.12.14 20:57:13 INFO  skipping build import with status 'Installed'
+2023.12.14 20:57:18 INFO  no build target found for C:\Users\Ashish\Documents\ScalaProgramming\src\main\scala\squareroot.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2023.12.14 20:57:18 INFO  no build target found for C:\Users\Ashish\Documents\ScalaProgramming\src\main\scala\squareroot.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2023.12.14 20:57:20 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Ashish\Documents\ScalaProgramming\.metals\bsp.trace.json or C:\Users\Ashish\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.12.14 20:57:23 INFO  Shutting down server
+2023.12.14 20:57:23 INFO  shutting down Metals
+2023.12.14 20:57:23 INFO  Exiting server
+2023.12.17 15:17:20 INFO  Started: Metals version 1.2.0 in folders 'C:\Users\Ashish\Documents\ODU\Cs480\Assignment4, C:\Users\Ashish\Documents\ODU\Cs480\Assignment3, C:\Users\Ashish\PycharmProjects\DeepNeuron, C:\Users\Ashish\PycharmProjects\NeuralNetwork, C:\Users\Ashish\PycharmProjects\CrossWordSolver, C:\Users\Ashish\Documents\TensorflowCertification, C:\Users\Ashish\Documents\ScalaProgramming, C:\Users\Ashish\Documents\apss' for client Visual Studio Code 1.85.1.
+2023.12.17 15:17:20 WARN  Build server is not auto-connectable.
+2023.12.17 15:17:20 WARN  no build tool detected in workspace 'C:\Users\Ashish\Documents\ODU\Cs480\Assignment4'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.12.17 15:17:20 INFO  Attempting to connect to the build server...
+2023.12.17 15:17:20 INFO  Bloop uses C:\Users\Ashish\.jabba\jdk\adopt@1.11.0-11 defined at C:\Users\Ashish\.bloop\bloop.json
+2023.12.17 15:17:20 INFO  skipping build import with status 'Installed'
+2023.12.17 15:17:26 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Ashish\Documents\ScalaProgramming\.metals\bsp.trace.json or C:\Users\Ashish\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.12.17 15:17:27 INFO  Attempting to connect to the build server...
+2023.12.17 15:17:27 INFO  Bloop uses C:\Users\Ashish\.jabba\jdk\adopt@1.11.0-11 defined at C:\Users\Ashish\.bloop\bloop.json
+2023.12.17 15:17:27 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Ashish\Documents\ScalaProgramming\project\.metals\bsp.trace.json or C:\Users\Ashish\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.12.17 15:17:29 INFO  time: Connected to build server in 8.61s
+2023.12.17 15:17:29 INFO  Connected to Build server: Bloop v1.5.13
+2023.12.17 15:17:38 INFO  time: indexed workspace in 8.91s
+2023.12.17 15:36:22 INFO  compiling scalaprogramming (4 scala sources)
+2023.12.17 15:36:22 INFO  time: compiled scalaprogramming in 0.94s
+2023.12.17 15:36:22 INFO  compiling scalaprogramming (4 scala sources)
+2023.12.17 15:36:22 INFO  time: compiled scalaprogramming in 38ms
+2023.12.17 15:36:32 INFO  compiling scalaprogramming (4 scala sources)
+2023.12.17 15:36:32 INFO  time: compiled scalaprogramming in 70ms
+2023.12.17 15:36:32 INFO  compiling scalaprogramming (4 scala sources)
+2023.12.17 15:36:32 INFO  time: compiled scalaprogramming in 35ms
+2023.12.17 15:37:00 INFO  compiling scalaprogramming (4 scala sources)
+2023.12.17 15:37:00 INFO  time: compiled scalaprogramming in 43ms
+2023.12.17 15:39:19 INFO  compiling scalaprogramming (4 scala sources)
+2023.12.17 15:39:19 INFO  time: compiled scalaprogramming in 41ms
+2023.12.17 15:39:21 INFO  compiling scalaprogramming (4 scala sources)
+2023.12.17 15:39:21 INFO  time: compiled scalaprogramming in 43ms
+Dec 17, 2023 3:39:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 158
+2023.12.17 15:40:01 INFO  compiling scalaprogramming (4 scala sources)
+2023.12.17 15:40:01 INFO  time: compiled scalaprogramming in 46ms
+2023.12.17 15:40:32 INFO  compiling scalaprogramming (4 scala sources)
+2023.12.17 15:40:32 INFO  time: compiled scalaprogramming in 38ms
+2023.12.17 15:40:44 INFO  compiling scalaprogramming (4 scala sources)
+2023.12.17 15:40:44 INFO  time: compiled scalaprogramming in 34ms
+2023.12.17 15:40:54 INFO  compiling scalaprogramming (4 scala sources)
+2023.12.17 15:40:54 INFO  time: compiled scalaprogramming in 40ms
+2023.12.17 15:42:32 INFO  compiling scalaprogramming (4 scala sources)
+2023.12.17 15:42:32 INFO  time: compiled scalaprogramming in 35ms
+2023.12.17 15:42:38 INFO  compiling scalaprogramming (4 scala sources)
+2023.12.17 15:42:38 INFO  time: compiled scalaprogramming in 89ms
+2023.12.17 15:42:38 INFO  compiling scalaprogramming (4 scala sources)
+2023.12.17 15:42:38 INFO  time: compiled scalaprogramming in 21ms
+2023.12.17 15:42:38 INFO  compiling scalaprogramming (4 scala sources)
+2023.12.17 15:42:38 INFO  time: compiled scalaprogramming in 20ms
+2023.12.17 15:44:30 INFO  compiling scalaprogramming (4 scala sources)
+2023.12.17 15:44:30 INFO  time: compiled scalaprogramming in 40ms
+2023.12.17 16:36:46 INFO  Shutting down server
+2023.12.17 16:36:46 INFO  shutting down Metals
+2023.12.17 16:36:46 INFO  Shut down connection with build server.
+2023.12.17 16:36:46 INFO  Shut down connection with build server.
+2023.12.17 16:36:46 INFO  Exiting server
+2023.12.17 22:39:46 INFO  Started: Metals version 1.2.0 in folders 'C:\Users\Ashish\Documents\ODU\Cs480\Assignment4, C:\Users\Ashish\Documents\ODU\Cs480\Assignment3, C:\Users\Ashish\PycharmProjects\DeepNeuron, C:\Users\Ashish\PycharmProjects\NeuralNetwork, C:\Users\Ashish\PycharmProjects\CrossWordSolver, C:\Users\Ashish\Documents\TensorflowCertification, C:\Users\Ashish\Documents\ScalaProgramming, C:\Users\Ashish\Documents\apss' for client Visual Studio Code 1.85.1.
+2023.12.17 22:39:46 WARN  Build server is not auto-connectable.
+2023.12.17 22:39:46 WARN  no build tool detected in workspace 'C:\Users\Ashish\Documents\ODU\Cs480\Assignment4'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.12.17 22:39:47 INFO  Attempting to connect to the build server...
+2023.12.17 22:39:47 INFO  Bloop uses C:\Users\Ashish\.jabba\jdk\adopt@1.11.0-11 defined at C:\Users\Ashish\.bloop\bloop.json
+2023.12.17 22:39:47 INFO  skipping build import with status 'Installed'
+2023.12.17 22:39:52 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Ashish\Documents\ScalaProgramming\.metals\bsp.trace.json or C:\Users\Ashish\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.12.17 22:39:52 INFO  Attempting to connect to the build server...
+2023.12.17 22:39:52 INFO  Bloop uses C:\Users\Ashish\.jabba\jdk\adopt@1.11.0-11 defined at C:\Users\Ashish\.bloop\bloop.json
+2023.12.17 22:39:52 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Ashish\Documents\ScalaProgramming\project\.metals\bsp.trace.json or C:\Users\Ashish\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.12.17 22:39:52 INFO  time: Connected to build server in 6.43s
+2023.12.17 22:39:52 INFO  Connected to Build server: Bloop v1.5.13
+2023.12.17 22:39:53 INFO  time: Imported build in 0.13s
+2023.12.17 22:39:59 INFO  time: indexed workspace in 6.15s
+2023.12.17 23:32:57 INFO  Shutting down server
+2023.12.17 23:32:57 INFO  shutting down Metals
+2023.12.17 23:32:57 INFO  Shut down connection with build server.
+2023.12.17 23:32:57 INFO  Shut down connection with build server.
+2023.12.17 23:32:57 INFO  Exiting server
+2023.12.19 18:52:05 INFO  Started: Metals version 1.2.0 in folders 'C:\Users\Ashish\Documents\ODU\Cs480\Assignment4, C:\Users\Ashish\Documents\ODU\Cs480\Assignment3, C:\Users\Ashish\PycharmProjects\DeepNeuron, C:\Users\Ashish\PycharmProjects\NeuralNetwork, C:\Users\Ashish\PycharmProjects\CrossWordSolver, C:\Users\Ashish\Documents\TensorflowCertification, C:\Users\Ashish\Documents\ScalaProgramming, C:\Users\Ashish\Documents\apss' for client Visual Studio Code 1.85.1.
+2023.12.19 18:52:06 WARN  Build server is not auto-connectable.
+2023.12.19 18:52:06 WARN  no build tool detected in workspace 'C:\Users\Ashish\Documents\ODU\Cs480\Assignment4'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.12.19 18:52:06 INFO  Attempting to connect to the build server...
+2023.12.19 18:52:06 INFO  Bloop uses C:\Users\Ashish\.jabba\jdk\adopt@1.11.0-11 defined at C:\Users\Ashish\.bloop\bloop.json
+2023.12.19 18:52:06 INFO  skipping build import with status 'Installed'
+2023.12.19 18:52:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Ashish\Documents\ScalaProgramming\.metals\bsp.trace.json or C:\Users\Ashish\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.12.19 18:52:12 INFO  Attempting to connect to the build server...
+2023.12.19 18:52:12 INFO  Bloop uses C:\Users\Ashish\.jabba\jdk\adopt@1.11.0-11 defined at C:\Users\Ashish\.bloop\bloop.json
+2023.12.19 18:52:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Ashish\Documents\ScalaProgramming\project\.metals\bsp.trace.json or C:\Users\Ashish\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.12.19 18:52:12 INFO  time: Connected to build server in 6.52s
+2023.12.19 18:52:12 INFO  Connected to Build server: Bloop v1.5.13
+2023.12.19 18:52:12 INFO  time: Imported build in 0.13s
+2023.12.19 18:52:14 INFO  no build target found for C:\Users\Ashish\Documents\ScalaProgramming\build.sbt. Using presentation compiler with project's scala-library version: 3.3.1
+Dec 19, 2023 6:52:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4
+Dec 19, 2023 6:52:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6
+2023.12.19 18:52:19 INFO  time: indexed workspace in 4.95s
+2023.12.19 18:52:20 INFO  running 'C:\Users\Ashish\.jabba\jdk\adopt@1.11.0-11\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Ashish\AppData\Local\Temp\metals9070003916249292556\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.12.19 18:52:22 INFO  [info] welcome to sbt 1.9.7 (AdoptOpenJDK Java 11.0.11)
+2023.12.19 18:52:24 INFO  [info] loading settings for project scalaprogramming-build-build from metals.sbt ...
+2023.12.19 18:52:24 INFO  [info] loading project definition from C:\Users\Ashish\Documents\ScalaProgramming\project\project
+2023.12.19 18:52:26 INFO  [info] loading settings for project scalaprogramming-build from metals.sbt ...
+2023.12.19 18:52:26 INFO  [info] loading project definition from C:\Users\Ashish\Documents\ScalaProgramming\project
+2023.12.19 18:52:28 INFO  [success] Generated .bloop\scalaprogramming-build.json
+2023.12.19 18:52:28 INFO  [success] Total time: 2 s, completed Dec 19, 2023, 6:52:28 PM
+2023.12.19 18:52:28 ERROR C:\Users\Ashish\Documents\ScalaProgramming\build.sbt:31: error: not found: value scioVersion
+2023.12.19 18:52:28 ERROR   "com.spotify" %% "scio-core" % scioVersion,
+2023.12.19 18:52:28 ERROR                                  ^
+2023.12.19 18:52:28 ERROR C:\Users\Ashish\Documents\ScalaProgramming\build.sbt:32: error: not found: value scioVersion
+2023.12.19 18:52:28 ERROR   "com.spotify" %% "scio-test" % scioVersion % Test,
+2023.12.19 18:52:28 ERROR                                  ^
+2023.12.19 18:52:28 ERROR C:\Users\Ashish\Documents\ScalaProgramming\build.sbt:33: error: not found: value beamVersion
+2023.12.19 18:52:28 ERROR   "org.apache.beam" % "beam-runners-direct-java" % beamVersion % Runtime,
+2023.12.19 18:52:28 ERROR                                                    ^
+2023.12.19 18:52:28 ERROR C:\Users\Ashish\Documents\ScalaProgramming\build.sbt:34: error: not found: value beamVersion
+2023.12.19 18:52:28 ERROR   "org.apache.beam" % "beam-runners-google-cloud-dataflow-java" % beamVersion % Runtime
+2023.12.19 18:52:28 ERROR                                                                   ^
+2023.12.19 18:52:28 INFO  [error] Type error in expression
+2023.12.19 18:52:28 INFO  [warn] Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? (default: r)
+2023.12.19 18:52:29 INFO  time: ran 'sbt bloopInstall' in 8.74s
+2023.12.19 18:52:29 ERROR sbt command failed: C:\Users\Ashish\.jabba\jdk\adopt@1.11.0-11\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Ashish\AppData\Local\Temp\metals9070003916249292556\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+2023.12.19 18:52:29 INFO  Disconnecting from Bloop session...
+2023.12.19 18:52:29 INFO  Shut down connection with build server.
+2023.12.19 18:52:29 INFO  Shut down connection with build server.
+2023.12.19 18:52:29 INFO  Attempting to connect to the build server...
+2023.12.19 18:52:29 INFO  Bloop uses C:\Users\Ashish\.jabba\jdk\adopt@1.11.0-11 defined at C:\Users\Ashish\.bloop\bloop.json
+2023.12.19 18:52:29 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Ashish\Documents\ScalaProgramming\.metals\bsp.trace.json or C:\Users\Ashish\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.12.19 18:52:29 INFO  Attempting to connect to the build server...
+2023.12.19 18:52:29 INFO  Bloop uses C:\Users\Ashish\.jabba\jdk\adopt@1.11.0-11 defined at C:\Users\Ashish\.bloop\bloop.json
+2023.12.19 18:52:29 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Ashish\Documents\ScalaProgramming\project\.metals\bsp.trace.json or C:\Users\Ashish\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.12.19 18:52:29 INFO  time: Connected to build server in 76ms
+2023.12.19 18:52:29 INFO  Connected to Build server: Bloop v1.5.13
+2023.12.19 18:52:30 INFO  time: indexed workspace in 0.98s
+2023.12.19 18:54:35 INFO  running 'C:\Users\Ashish\.jabba\jdk\adopt@1.11.0-11\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Ashish\AppData\Local\Temp\metals11273901746318629425\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.12.19 18:54:36 INFO  [info] welcome to sbt 1.9.7 (AdoptOpenJDK Java 11.0.11)
+2023.12.19 18:54:36 INFO  [info] loading settings for project scalaprogramming-build-build from metals.sbt ...
+2023.12.19 18:54:36 INFO  [info] loading project definition from C:\Users\Ashish\Documents\ScalaProgramming\project\project
+2023.12.19 18:54:37 INFO  [info] loading settings for project scalaprogramming-build from metals.sbt ...
+2023.12.19 18:54:37 INFO  [info] loading project definition from C:\Users\Ashish\Documents\ScalaProgramming\project
+2023.12.19 18:54:39 INFO  [success] Generated .bloop\scalaprogramming-build.json
+2023.12.19 18:54:39 INFO  [success] Total time: 1 s, completed Dec 19, 2023, 6:54:39 PM
+2023.12.19 18:54:40 INFO  [info] loading settings for project scalaprogramming from build.sbt ...
+2023.12.19 18:54:40 INFO  [info] set current project to hello-world (in build file:/C:/Users/Ashish/Documents/ScalaProgramming/)
+2023.12.19 18:54:46 INFO  [warn] 
+2023.12.19 18:54:46 INFO  [warn] 	Note: Unresolved dependencies path:
+2023.12.19 18:54:46 INFO  [error] Couldn't run bloopGenerate. The issue could be caused by failing to compile the project.
+2023.12.19 18:54:46 INFO  [warn] Removed stale C:\Users\Ashish\Documents\ScalaProgramming\.bloop\scalaprogramming-test.json
+2023.12.19 18:54:46 INFO  [warn] Removed stale C:\Users\Ashish\Documents\ScalaProgramming\.bloop\scalaprogramming.json
+2023.12.19 18:54:46 INFO  [error] sbt.librarymanagement.ResolveException: Error downloading io.confluent:kafka-avro-serializer:5.3.2
+2023.12.19 18:54:46 INFO  [error]   Not found
+2023.12.19 18:54:46 INFO  [error]   Not found
+2023.12.19 18:54:46 INFO  [error]   not found: C:\Users\Ashish\.ivy2\localio.confluent\kafka-avro-serializer\5.3.2\ivys\ivy.xml
+2023.12.19 18:54:46 INFO  [error]   not found: https://repo1.maven.org/maven2/io/confluent/kafka-avro-serializer/5.3.2/kafka-avro-serializer-5.3.2.pom
+2023.12.19 18:54:46 INFO  [error] Error downloading io.confluent:kafka-schema-registry-client:5.3.2
+2023.12.19 18:54:46 INFO  [error]   Not found
+2023.12.19 18:54:46 INFO  [error]   Not found
+2023.12.19 18:54:46 INFO  [error]   not found: C:\Users\Ashish\.ivy2\localio.confluent\kafka-schema-registry-client\5.3.2\ivys\ivy.xml
+2023.12.19 18:54:46 INFO  [error]   not found: https://repo1.maven.org/maven2/io/confluent/kafka-schema-registry-client/5.3.2/kafka-schema-registry-client-5.3.2.pom
+2023.12.19 18:54:46 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.unresolvedWarningOrThrow(CoursierDependencyResolution.scala:344)
+2023.12.19 18:54:46 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.$anonfun$update$38(CoursierDependencyResolution.scala:313)
+2023.12.19 18:54:46 INFO  [error] 	at scala.util.Either$LeftProjection.map(Either.scala:573)
+2023.12.19 18:54:46 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.update(CoursierDependencyResolution.scala:313)
+2023.12.19 18:54:46 INFO  [error] 	at sbt.librarymanagement.DependencyResolution.update(DependencyResolution.scala:60)
+2023.12.19 18:54:46 INFO  [error] 	at sbt.internal.LibraryManagement$.resolve$1(LibraryManagement.scala:60)
+2023.12.19 18:54:46 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$12(LibraryManagement.scala:134)
+2023.12.19 18:54:46 INFO  [error] 	at sbt.util.Tracked$.$anonfun$lastOutput$1(Tracked.scala:74)
+2023.12.19 18:54:46 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$20(LibraryManagement.scala:147)
+2023.12.19 18:54:46 INFO  [error] 	at scala.util.control.Exception$Catch.apply(Exception.scala:228)
+2023.12.19 18:54:46 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11(LibraryManagement.scala:147)
+2023.12.19 18:54:46 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11$adapted(LibraryManagement.scala:128)
+2023.12.19 18:54:46 INFO  [error] 	at sbt.util.Tracked$.$anonfun$inputChangedW$1(Tracked.scala:220)
+2023.12.19 18:54:46 INFO  [error] 	at sbt.internal.LibraryManagement$.cachedUpdate(LibraryManagement.scala:161)
+2023.12.19 18:54:46 INFO  [error] 	at sbt.Classpaths$.$anonfun$updateTask0$1(Defaults.scala:3801)
+2023.12.19 18:54:46 INFO  [error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:49)
+2023.12.19 18:54:46 INFO  [error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:63)
+2023.12.19 18:54:46 INFO  [error] 	at sbt.std.Transform$$anon$4.work(Transform.scala:69)
+2023.12.19 18:54:46 INFO  [error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:283)
+2023.12.19 18:54:46 INFO  [error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:24)
+2023.12.19 18:54:46 INFO  [error] 	at sbt.Execute.work(Execute.scala:292)
+2023.12.19 18:54:46 INFO  [error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:283)
+2023.12.19 18:54:46 INFO  [error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)
+2023.12.19 18:54:46 INFO  [error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:65)
+2023.12.19 18:54:46 INFO  [error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+2023.12.19 18:54:46 INFO  [error] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+2023.12.19 18:54:46 INFO  [error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+2023.12.19 18:54:46 INFO  [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+2023.12.19 18:54:46 INFO  [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+2023.12.19 18:54:46 INFO  [error] 	at java.base/java.lang.Thread.run(Thread.java:829)
+2023.12.19 18:54:46 INFO  [error] (update) sbt.librarymanagement.ResolveException: Error downloading io.confluent:kafka-avro-serializer:5.3.2
+2023.12.19 18:54:46 INFO  [error]   Not found
+2023.12.19 18:54:46 INFO  [error]   Not found
+2023.12.19 18:54:46 INFO  [error]   not found: C:\Users\Ashish\.ivy2\localio.confluent\kafka-avro-serializer\5.3.2\ivys\ivy.xml
+2023.12.19 18:54:46 INFO  [error]   not found: https://repo1.maven.org/maven2/io/confluent/kafka-avro-serializer/5.3.2/kafka-avro-serializer-5.3.2.pom
+2023.12.19 18:54:46 INFO  [error] Error downloading io.confluent:kafka-schema-registry-client:5.3.2
+2023.12.19 18:54:46 INFO  [error]   Not found
+2023.12.19 18:54:46 INFO  [error]   Not found
+2023.12.19 18:54:46 INFO  [error]   not found: C:\Users\Ashish\.ivy2\localio.confluent\kafka-schema-registry-client\5.3.2\ivys\ivy.xml
+2023.12.19 18:54:46 INFO  [error]   not found: https://repo1.maven.org/maven2/io/confluent/kafka-schema-registry-client/5.3.2/kafka-schema-registry-client-5.3.2.pom
+2023.12.19 18:54:46 INFO  [error] Total time: 5 s, completed Dec 19, 2023, 6:54:46 PM
+2023.12.19 18:54:46 INFO  time: ran 'sbt bloopInstall' in 10s
+2023.12.19 18:54:46 ERROR sbt command failed: C:\Users\Ashish\.jabba\jdk\adopt@1.11.0-11\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Ashish\AppData\Local\Temp\metals11273901746318629425\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+2023.12.19 18:54:46 INFO  Disconnecting from Bloop session...
+2023.12.19 18:54:46 INFO  Shut down connection with build server.
+2023.12.19 18:54:46 INFO  Shut down connection with build server.
+2023.12.19 18:54:46 INFO  Attempting to connect to the build server...
+2023.12.19 18:54:46 INFO  Bloop uses C:\Users\Ashish\.jabba\jdk\adopt@1.11.0-11 defined at C:\Users\Ashish\.bloop\bloop.json
+2023.12.19 18:54:46 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Ashish\Documents\ScalaProgramming\.metals\bsp.trace.json or C:\Users\Ashish\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.12.19 18:54:46 INFO  Attempting to connect to the build server...
+2023.12.19 18:54:46 INFO  Bloop uses C:\Users\Ashish\.jabba\jdk\adopt@1.11.0-11 defined at C:\Users\Ashish\.bloop\bloop.json
+2023.12.19 18:54:46 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Ashish\Documents\ScalaProgramming\project\.metals\bsp.trace.json or C:\Users\Ashish\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.12.19 18:54:46 INFO  time: Connected to build server in 72ms
+2023.12.19 18:54:46 INFO  Connected to Build server: Bloop v1.5.13
+2023.12.19 18:54:47 INFO  time: indexed workspace in 0.92s
+Dec 19, 2023 6:55:22 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Ashish\Documents\ScalaProgramming\.metals\.reports\metals-full\2023-12-19\r_compiler-error_(scalaprogramming-build)_18-55-22-679.md
+2023.12.19 18:55:25 INFO  running 'C:\Users\Ashish\.jabba\jdk\adopt@1.11.0-11\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Ashish\AppData\Local\Temp\metals12699936449252898137\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.12.19 18:55:26 INFO  [info] welcome to sbt 1.9.7 (AdoptOpenJDK Java 11.0.11)
+2023.12.19 18:55:26 INFO  [info] loading settings for project scalaprogramming-build-build from metals.sbt ...
+2023.12.19 18:55:26 INFO  [info] loading project definition from C:\Users\Ashish\Documents\ScalaProgramming\project\project
+2023.12.19 18:55:27 INFO  [info] loading settings for project scalaprogramming-build from metals.sbt ...
+2023.12.19 18:55:27 INFO  [info] loading project definition from C:\Users\Ashish\Documents\ScalaProgramming\project
+2023.12.19 18:55:28 INFO  [success] Generated .bloop\scalaprogramming-build.json
+2023.12.19 18:55:28 INFO  [success] Total time: 1 s, completed Dec 19, 2023, 6:55:28 PM
+2023.12.19 18:55:30 INFO  [info] loading settings for project scalaprogramming from build.sbt ...
+2023.12.19 18:55:30 INFO  [info] set current project to hello-world (in build file:/C:/Users/Ashish/Documents/ScalaProgramming/)
+2023.12.19 18:55:31 INFO  [warn] 
+2023.12.19 18:55:31 INFO  [warn] 	Note: Unresolved dependencies path:
+2023.12.19 18:55:31 INFO  [error] Couldn't run bloopGenerate. The issue could be caused by failing to compile the project.
+2023.12.19 18:55:31 INFO  [error] sbt.librarymanagement.ResolveException: Error downloading io.confluent:kafka-schema-registry-client:5.3.2
+2023.12.19 18:55:31 INFO  [error]   Not found
+2023.12.19 18:55:31 INFO  [error]   Not found
+2023.12.19 18:55:31 INFO  [error]   not found: C:\Users\Ashish\.ivy2\localio.confluent\kafka-schema-registry-client\5.3.2\ivys\ivy.xml
+2023.12.19 18:55:31 INFO  [error]   not found: https://repo1.maven.org/maven2/io/confluent/kafka-schema-registry-client/5.3.2/kafka-schema-registry-client-5.3.2.pom
+2023.12.19 18:55:31 INFO  [error] Error downloading io.confluent:kafka-avro-serializer:5.3.2
+2023.12.19 18:55:31 INFO  [error]   Not found
+2023.12.19 18:55:31 INFO  [error]   Not found
+2023.12.19 18:55:31 INFO  [error]   not found: C:\Users\Ashish\.ivy2\localio.confluent\kafka-avro-serializer\5.3.2\ivys\ivy.xml
+2023.12.19 18:55:31 INFO  [error]   not found: https://repo1.maven.org/maven2/io/confluent/kafka-avro-serializer/5.3.2/kafka-avro-serializer-5.3.2.pom
+2023.12.19 18:55:31 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.unresolvedWarningOrThrow(CoursierDependencyResolution.scala:344)
+2023.12.19 18:55:31 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.$anonfun$update$38(CoursierDependencyResolution.scala:313)
+2023.12.19 18:55:31 INFO  [error] 	at scala.util.Either$LeftProjection.map(Either.scala:573)
+2023.12.19 18:55:31 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.update(CoursierDependencyResolution.scala:313)
+2023.12.19 18:55:31 INFO  [error] 	at sbt.librarymanagement.DependencyResolution.update(DependencyResolution.scala:60)
+2023.12.19 18:55:31 INFO  [error] 	at sbt.internal.LibraryManagement$.resolve$1(LibraryManagement.scala:60)
+2023.12.19 18:55:31 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$12(LibraryManagement.scala:134)
+2023.12.19 18:55:31 INFO  [error] 	at sbt.util.Tracked$.$anonfun$lastOutput$1(Tracked.scala:74)
+2023.12.19 18:55:31 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$20(LibraryManagement.scala:147)
+2023.12.19 18:55:31 INFO  [error] 	at scala.util.control.Exception$Catch.apply(Exception.scala:228)
+2023.12.19 18:55:31 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11(LibraryManagement.scala:147)
+2023.12.19 18:55:31 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11$adapted(LibraryManagement.scala:128)
+2023.12.19 18:55:31 INFO  [error] 	at sbt.util.Tracked$.$anonfun$inputChangedW$1(Tracked.scala:220)
+2023.12.19 18:55:31 INFO  [error] 	at sbt.internal.LibraryManagement$.cachedUpdate(LibraryManagement.scala:161)
+2023.12.19 18:55:31 INFO  [error] 	at sbt.Classpaths$.$anonfun$updateTask0$1(Defaults.scala:3801)
+2023.12.19 18:55:31 INFO  [error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:49)
+2023.12.19 18:55:31 INFO  [error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:63)
+2023.12.19 18:55:31 INFO  [error] 	at sbt.std.Transform$$anon$4.work(Transform.scala:69)
+2023.12.19 18:55:31 INFO  [error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:283)
+2023.12.19 18:55:31 INFO  [error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:24)
+2023.12.19 18:55:31 INFO  [error] 	at sbt.Execute.work(Execute.scala:292)
+2023.12.19 18:55:31 INFO  [error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:283)
+2023.12.19 18:55:31 INFO  [error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)
+2023.12.19 18:55:31 INFO  [error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:65)
+2023.12.19 18:55:31 INFO  [error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+2023.12.19 18:55:31 INFO  [error] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+2023.12.19 18:55:31 INFO  [error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+2023.12.19 18:55:31 INFO  [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+2023.12.19 18:55:31 INFO  [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+2023.12.19 18:55:31 INFO  [error] 	at java.base/java.lang.Thread.run(Thread.java:829)
+2023.12.19 18:55:31 INFO  [error] (update) sbt.librarymanagement.ResolveException: Error downloading io.confluent:kafka-schema-registry-client:5.3.2
+2023.12.19 18:55:31 INFO  [error]   Not found
+2023.12.19 18:55:31 INFO  [error]   Not found
+2023.12.19 18:55:31 INFO  [error]   not found: C:\Users\Ashish\.ivy2\localio.confluent\kafka-schema-registry-client\5.3.2\ivys\ivy.xml
+2023.12.19 18:55:31 INFO  [error]   not found: https://repo1.maven.org/maven2/io/confluent/kafka-schema-registry-client/5.3.2/kafka-schema-registry-client-5.3.2.pom
+2023.12.19 18:55:31 INFO  [error] Error downloading io.confluent:kafka-avro-serializer:5.3.2
+2023.12.19 18:55:31 INFO  [error]   Not found
+2023.12.19 18:55:31 INFO  [error]   Not found
+2023.12.19 18:55:31 INFO  [error]   not found: C:\Users\Ashish\.ivy2\localio.confluent\kafka-avro-serializer\5.3.2\ivys\ivy.xml
+2023.12.19 18:55:31 INFO  [error]   not found: https://repo1.maven.org/maven2/io/confluent/kafka-avro-serializer/5.3.2/kafka-avro-serializer-5.3.2.pom
+2023.12.19 18:55:31 INFO  [error] Total time: 2 s, completed Dec 19, 2023, 6:55:31 PM
+2023.12.19 18:55:31 INFO  time: ran 'sbt bloopInstall' in 6.61s
+2023.12.19 18:55:31 ERROR sbt command failed: C:\Users\Ashish\.jabba\jdk\adopt@1.11.0-11\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Ashish\AppData\Local\Temp\metals12699936449252898137\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+2023.12.19 18:55:31 INFO  Disconnecting from Bloop session...
+2023.12.19 18:55:31 INFO  Shut down connection with build server.
+2023.12.19 18:55:31 INFO  Shut down connection with build server.
+2023.12.19 18:55:31 INFO  Attempting to connect to the build server...
+2023.12.19 18:55:31 INFO  Bloop uses C:\Users\Ashish\.jabba\jdk\adopt@1.11.0-11 defined at C:\Users\Ashish\.bloop\bloop.json
+2023.12.19 18:55:31 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Ashish\Documents\ScalaProgramming\.metals\bsp.trace.json or C:\Users\Ashish\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.12.19 18:55:31 INFO  Attempting to connect to the build server...
+2023.12.19 18:55:31 INFO  Bloop uses C:\Users\Ashish\.jabba\jdk\adopt@1.11.0-11 defined at C:\Users\Ashish\.bloop\bloop.json
+2023.12.19 18:55:31 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Ashish\Documents\ScalaProgramming\project\.metals\bsp.trace.json or C:\Users\Ashish\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.12.19 18:55:31 INFO  time: Connected to build server in 64ms
+2023.12.19 18:55:31 INFO  Connected to Build server: Bloop v1.5.13
+2023.12.19 18:55:32 INFO  time: indexed workspace in 0.91s
+2023.12.19 18:55:39 INFO  skipping build import with status 'Failed'
+2023.12.19 18:57:03 INFO  logging to files C:\Users\Ashish\Documents\ODU\Cs480\Assignment4\.metals\metals.log,C:\Users\Ashish\Documents\ScalaProgramming\.metals\metals.log
+2023.12.19 18:58:34 INFO  no build target found for /sbt/Keys.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2023.12.19 18:58:40 INFO  logging to files C:\Users\Ashish\Documents\ODU\Cs480\Assignment4\.metals\metals.log,C:\Users\Ashish\Documents\ScalaProgramming\.metals\metals.log,C:\Users\Ashish\Documents\DataflowExample\.metals\metals.log
+2023.12.19 18:58:40 WARN  Build server is not auto-connectable.
+2023.12.19 18:58:40 WARN  no build target for: C:\Users\Ashish\Documents\DataflowExample\build.sbt
+2023.12.19 18:58:41 INFO  no build target found for C:\Users\Ashish\Documents\DataflowExample\build.sbt. Using presentation compiler with project's scala-library version: 3.3.1
+2023.12.19 18:58:42 INFO  time: code lens generation in 1.38s
+2023.12.19 18:59:02 WARN  no build target for: C:\Users\Ashish\Documents\DataflowExample\build.sbt
+2023.12.19 18:59:04 INFO  running 'C:\Users\Ashish\.jabba\jdk\adopt@1.11.0-11\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -Dsbt.version=1.9.7 -jar C:\Users\Ashish\AppData\Local\Temp\metals13376061407890993621\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.12.19 18:59:05 INFO  [info] Updated file C:\Users\Ashish\Documents\DataflowExample\project\build.properties: set sbt.version to 1.9.7
+2023.12.19 18:59:05 INFO  [info] welcome to sbt 1.9.7 (AdoptOpenJDK Java 11.0.11)
+2023.12.19 18:59:06 INFO  [info] loading settings for project dataflowexample-build-build from metals.sbt ...
+2023.12.19 18:59:06 INFO  [info] loading project definition from C:\Users\Ashish\Documents\DataflowExample\project\project
+2023.12.19 18:59:08 INFO  [info] loading settings for project dataflowexample-build from metals.sbt ...
+2023.12.19 18:59:08 INFO  [info] loading project definition from C:\Users\Ashish\Documents\DataflowExample\project
+2023.12.19 18:59:09 INFO  [success] Generated .bloop\dataflowexample-build.json
+2023.12.19 18:59:09 INFO  [success] Total time: 1 s, completed Dec 19, 2023, 6:59:09 PM
+2023.12.19 18:59:10 ERROR C:\Users\Ashish\Documents\DataflowExample\build.sbt:20: error: not found: value scioVersion
+2023.12.19 18:59:10 ERROR   "com.spotify" %% "scio-core" % scioVersion,
+2023.12.19 18:59:10 ERROR                                  ^
+2023.12.19 18:59:10 ERROR C:\Users\Ashish\Documents\DataflowExample\build.sbt:21: error: not found: value scioVersion
+2023.12.19 18:59:10 ERROR   "com.spotify" %% "scio-test" % scioVersion % Test,
+2023.12.19 18:59:10 ERROR                                  ^
+2023.12.19 18:59:10 ERROR C:\Users\Ashish\Documents\DataflowExample\build.sbt:22: error: not found: value beamVersion
+2023.12.19 18:59:10 ERROR   "org.apache.beam" % "beam-runners-direct-java" % beamVersion % Runtime,
+2023.12.19 18:59:10 ERROR                                                    ^
+2023.12.19 18:59:10 ERROR C:\Users\Ashish\Documents\DataflowExample\build.sbt:23: error: not found: value beamVersion
+2023.12.19 18:59:10 ERROR   "org.apache.beam" % "beam-runners-google-cloud-dataflow-java" % beamVersion % Runtime
+2023.12.19 18:59:10 ERROR                                                                   ^
+2023.12.19 18:59:09 INFO  [error] Type error in expression
+2023.12.19 18:59:09 INFO  [warn] Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? (default: r)
+2023.12.19 18:59:10 INFO  time: ran 'sbt bloopInstall' in 5.93s
+2023.12.19 18:59:10 ERROR sbt command failed: C:\Users\Ashish\.jabba\jdk\adopt@1.11.0-11\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -Dsbt.version=1.9.7 -jar C:\Users\Ashish\AppData\Local\Temp\metals13376061407890993621\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+2023.12.19 19:01:16 WARN  no build target for: C:\Users\Ashish\Documents\DataflowExample\build.sbt
+2023.12.19 19:01:20 WARN  no build target for: C:\Users\Ashish\Documents\DataflowExample\build.sbt
+2023.12.19 19:01:24 WARN  no build target for: C:\Users\Ashish\Documents\DataflowExample\build.sbt
+2023.12.19 19:01:25 INFO  running 'C:\Users\Ashish\.jabba\jdk\adopt@1.11.0-11\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Ashish\AppData\Local\Temp\metals12438121060264127794\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.12.19 19:01:26 INFO  [info] welcome to sbt 1.9.7 (AdoptOpenJDK Java 11.0.11)
+2023.12.19 19:01:26 INFO  [info] loading settings for project dataflowexample-build-build from metals.sbt ...
+2023.12.19 19:01:26 INFO  [info] loading project definition from C:\Users\Ashish\Documents\DataflowExample\project\project
+2023.12.19 19:01:27 INFO  [info] loading settings for project dataflowexample-build from metals.sbt ...
+2023.12.19 19:01:27 INFO  [info] loading project definition from C:\Users\Ashish\Documents\DataflowExample\project
+2023.12.19 19:01:29 INFO  [success] Generated .bloop\dataflowexample-build.json
+2023.12.19 19:01:29 INFO  [success] Total time: 1 s, completed Dec 19, 2023, 7:01:29 PM
+2023.12.19 19:01:30 INFO  [info] loading settings for project dataflowexample from build.sbt ...
+2023.12.19 19:01:30 INFO  [info] set current project to DataFlowExmaple (in build file:/C:/Users/Ashish/Documents/DataflowExample/)
+2023.12.19 19:01:32 INFO  [warn] 
+2023.12.19 19:01:32 INFO  [warn] 	Note: Unresolved dependencies path:
+2023.12.19 19:01:32 INFO  [error] Couldn't run bloopGenerate. The issue could be caused by failing to compile the project.
+2023.12.19 19:01:32 INFO  [error] sbt.librarymanagement.ResolveException: Error downloading io.confluent:kafka-avro-serializer:5.3.2
+2023.12.19 19:01:32 INFO  [error]   Not found
+2023.12.19 19:01:32 INFO  [error]   Not found
+2023.12.19 19:01:32 INFO  [error]   not found: C:\Users\Ashish\.ivy2\localio.confluent\kafka-avro-serializer\5.3.2\ivys\ivy.xml
+2023.12.19 19:01:32 INFO  [error]   not found: https://repo1.maven.org/maven2/io/confluent/kafka-avro-serializer/5.3.2/kafka-avro-serializer-5.3.2.pom
+2023.12.19 19:01:32 INFO  [error] Error downloading io.confluent:kafka-schema-registry-client:5.3.2
+2023.12.19 19:01:32 INFO  [error]   Not found
+2023.12.19 19:01:32 INFO  [error]   Not found
+2023.12.19 19:01:32 INFO  [error]   not found: C:\Users\Ashish\.ivy2\localio.confluent\kafka-schema-registry-client\5.3.2\ivys\ivy.xml
+2023.12.19 19:01:32 INFO  [error]   not found: https://repo1.maven.org/maven2/io/confluent/kafka-schema-registry-client/5.3.2/kafka-schema-registry-client-5.3.2.pom
+2023.12.19 19:01:32 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.unresolvedWarningOrThrow(CoursierDependencyResolution.scala:344)
+2023.12.19 19:01:32 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.$anonfun$update$38(CoursierDependencyResolution.scala:313)
+2023.12.19 19:01:32 INFO  [error] 	at scala.util.Either$LeftProjection.map(Either.scala:573)
+2023.12.19 19:01:32 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.update(CoursierDependencyResolution.scala:313)
+2023.12.19 19:01:32 INFO  [error] 	at sbt.librarymanagement.DependencyResolution.update(DependencyResolution.scala:60)
+2023.12.19 19:01:32 INFO  [error] 	at sbt.internal.LibraryManagement$.resolve$1(LibraryManagement.scala:60)
+2023.12.19 19:01:32 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$12(LibraryManagement.scala:134)
+2023.12.19 19:01:32 INFO  [error] 	at sbt.util.Tracked$.$anonfun$lastOutput$1(Tracked.scala:74)
+2023.12.19 19:01:32 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$20(LibraryManagement.scala:147)
+2023.12.19 19:01:32 INFO  [error] 	at scala.util.control.Exception$Catch.apply(Exception.scala:228)
+2023.12.19 19:01:32 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11(LibraryManagement.scala:147)
+2023.12.19 19:01:32 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11$adapted(LibraryManagement.scala:128)
+2023.12.19 19:01:32 INFO  [error] 	at sbt.util.Tracked$.$anonfun$inputChangedW$1(Tracked.scala:220)
+2023.12.19 19:01:32 INFO  [error] 	at sbt.internal.LibraryManagement$.cachedUpdate(LibraryManagement.scala:161)
+2023.12.19 19:01:32 INFO  [error] 	at sbt.Classpaths$.$anonfun$updateTask0$1(Defaults.scala:3801)
+2023.12.19 19:01:32 INFO  [error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:49)
+2023.12.19 19:01:32 INFO  [error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:63)
+2023.12.19 19:01:32 INFO  [error] 	at sbt.std.Transform$$anon$4.work(Transform.scala:69)
+2023.12.19 19:01:32 INFO  [error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:283)
+2023.12.19 19:01:32 INFO  [error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:24)
+2023.12.19 19:01:32 INFO  [error] 	at sbt.Execute.work(Execute.scala:292)
+2023.12.19 19:01:32 INFO  [error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:283)
+2023.12.19 19:01:32 INFO  [error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)
+2023.12.19 19:01:32 INFO  [error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:65)
+2023.12.19 19:01:32 INFO  [error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+2023.12.19 19:01:32 INFO  [error] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+2023.12.19 19:01:32 INFO  [error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+2023.12.19 19:01:32 INFO  [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+2023.12.19 19:01:32 INFO  [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+2023.12.19 19:01:32 INFO  [error] 	at java.base/java.lang.Thread.run(Thread.java:829)
+2023.12.19 19:01:32 INFO  [error] (update) sbt.librarymanagement.ResolveException: Error downloading io.confluent:kafka-avro-serializer:5.3.2
+2023.12.19 19:01:32 INFO  [error]   Not found
+2023.12.19 19:01:32 INFO  [error]   Not found
+2023.12.19 19:01:32 INFO  [error]   not found: C:\Users\Ashish\.ivy2\localio.confluent\kafka-avro-serializer\5.3.2\ivys\ivy.xml
+2023.12.19 19:01:32 INFO  [error]   not found: https://repo1.maven.org/maven2/io/confluent/kafka-avro-serializer/5.3.2/kafka-avro-serializer-5.3.2.pom
+2023.12.19 19:01:32 INFO  [error] Error downloading io.confluent:kafka-schema-registry-client:5.3.2
+2023.12.19 19:01:32 INFO  [error]   Not found
+2023.12.19 19:01:32 INFO  [error]   Not found
+2023.12.19 19:01:32 INFO  [error]   not found: C:\Users\Ashish\.ivy2\localio.confluent\kafka-schema-registry-client\5.3.2\ivys\ivy.xml
+2023.12.19 19:01:32 INFO  [error]   not found: https://repo1.maven.org/maven2/io/confluent/kafka-schema-registry-client/5.3.2/kafka-schema-registry-client-5.3.2.pom
+2023.12.19 19:01:32 INFO  [error] Total time: 2 s, completed Dec 19, 2023, 7:01:32 PM
+2023.12.19 19:01:33 INFO  time: ran 'sbt bloopInstall' in 7.46s
+2023.12.19 19:01:33 ERROR sbt command failed: C:\Users\Ashish\.jabba\jdk\adopt@1.11.0-11\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Ashish\AppData\Local\Temp\metals12438121060264127794\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+2023.12.19 19:01:33 INFO  skipping build import with status 'Failed'
+2023.12.19 19:02:36 WARN  no build target for: C:\Users\Ashish\Documents\DataflowExample\build.sbt
+2023.12.19 19:02:37 INFO  running 'C:\Users\Ashish\.jabba\jdk\adopt@1.11.0-11\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Ashish\AppData\Local\Temp\metals12926964014951628748\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.12.19 19:02:38 INFO  [info] welcome to sbt 1.9.7 (AdoptOpenJDK Java 11.0.11)
+2023.12.19 19:02:38 INFO  [info] loading settings for project dataflowexample-build-build from metals.sbt ...
+2023.12.19 19:02:38 INFO  [info] loading project definition from C:\Users\Ashish\Documents\DataflowExample\project\project
+2023.12.19 19:02:40 INFO  [info] loading settings for project dataflowexample-build from metals.sbt ...
+2023.12.19 19:02:40 INFO  [info] loading project definition from C:\Users\Ashish\Documents\DataflowExample\project
+2023.12.19 19:02:41 INFO  [success] Generated .bloop\dataflowexample-build.json
+2023.12.19 19:02:41 INFO  [success] Total time: 1 s, completed Dec 19, 2023, 7:02:41 PM
+2023.12.19 19:02:42 INFO  [info] loading settings for project dataflowexample from build.sbt ...
+2023.12.19 19:02:42 INFO  [info] set current project to DataFlowExmaple (in build file:/C:/Users/Ashish/Documents/DataflowExample/)
+2023.12.19 19:02:44 INFO  [warn] 
+2023.12.19 19:02:44 INFO  [warn] 	Note: Unresolved dependencies path:
+2023.12.19 19:02:44 INFO  [error] Couldn't run bloopGenerate. The issue could be caused by failing to compile the project.
+2023.12.19 19:02:44 INFO  [error] sbt.librarymanagement.ResolveException: Error downloading io.confluent:kafka-avro-serializer:5.3.2
+2023.12.19 19:02:44 INFO  [error]   Not found
+2023.12.19 19:02:44 INFO  [error]   Not found
+2023.12.19 19:02:44 INFO  [error]   not found: C:\Users\Ashish\.ivy2\localio.confluent\kafka-avro-serializer\5.3.2\ivys\ivy.xml
+2023.12.19 19:02:44 INFO  [error]   not found: https://repo1.maven.org/maven2/io/confluent/kafka-avro-serializer/5.3.2/kafka-avro-serializer-5.3.2.pom
+2023.12.19 19:02:44 INFO  [error] Error downloading io.confluent:kafka-schema-registry-client:5.3.2
+2023.12.19 19:02:44 INFO  [error]   Not found
+2023.12.19 19:02:44 INFO  [error]   Not found
+2023.12.19 19:02:44 INFO  [error]   not found: C:\Users\Ashish\.ivy2\localio.confluent\kafka-schema-registry-client\5.3.2\ivys\ivy.xml
+2023.12.19 19:02:44 INFO  [error]   not found: https://repo1.maven.org/maven2/io/confluent/kafka-schema-registry-client/5.3.2/kafka-schema-registry-client-5.3.2.pom
+2023.12.19 19:02:44 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.unresolvedWarningOrThrow(CoursierDependencyResolution.scala:344)
+2023.12.19 19:02:44 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.$anonfun$update$38(CoursierDependencyResolution.scala:313)
+2023.12.19 19:02:44 INFO  [error] 	at scala.util.Either$LeftProjection.map(Either.scala:573)
+2023.12.19 19:02:44 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.update(CoursierDependencyResolution.scala:313)
+2023.12.19 19:02:44 INFO  [error] 	at sbt.librarymanagement.DependencyResolution.update(DependencyResolution.scala:60)
+2023.12.19 19:02:44 INFO  [error] 	at sbt.internal.LibraryManagement$.resolve$1(LibraryManagement.scala:60)
+2023.12.19 19:02:44 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$12(LibraryManagement.scala:134)
+2023.12.19 19:02:44 INFO  [error] 	at sbt.util.Tracked$.$anonfun$lastOutput$1(Tracked.scala:74)
+2023.12.19 19:02:44 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$20(LibraryManagement.scala:147)
+2023.12.19 19:02:44 INFO  [error] 	at scala.util.control.Exception$Catch.apply(Exception.scala:228)
+2023.12.19 19:02:44 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11(LibraryManagement.scala:147)
+2023.12.19 19:02:44 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11$adapted(LibraryManagement.scala:128)
+2023.12.19 19:02:44 INFO  [error] 	at sbt.util.Tracked$.$anonfun$inputChangedW$1(Tracked.scala:220)
+2023.12.19 19:02:44 INFO  [error] 	at sbt.internal.LibraryManagement$.cachedUpdate(LibraryManagement.scala:161)
+2023.12.19 19:02:44 INFO  [error] 	at sbt.Classpaths$.$anonfun$updateTask0$1(Defaults.scala:3801)
+2023.12.19 19:02:44 INFO  [error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:49)
+2023.12.19 19:02:44 INFO  [error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:63)
+2023.12.19 19:02:44 INFO  [error] 	at sbt.std.Transform$$anon$4.work(Transform.scala:69)
+2023.12.19 19:02:44 INFO  [error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:283)
+2023.12.19 19:02:44 INFO  [error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:24)
+2023.12.19 19:02:44 INFO  [error] 	at sbt.Execute.work(Execute.scala:292)
+2023.12.19 19:02:44 INFO  [error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:283)
+2023.12.19 19:02:44 INFO  [error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)
+2023.12.19 19:02:44 INFO  [error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:65)
+2023.12.19 19:02:44 INFO  [error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+2023.12.19 19:02:44 INFO  [error] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+2023.12.19 19:02:44 INFO  [error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+2023.12.19 19:02:44 INFO  [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+2023.12.19 19:02:44 INFO  [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+2023.12.19 19:02:44 INFO  [error] 	at java.base/java.lang.Thread.run(Thread.java:829)
+2023.12.19 19:02:44 INFO  [error] (update) sbt.librarymanagement.ResolveException: Error downloading io.confluent:kafka-avro-serializer:5.3.2
+2023.12.19 19:02:44 INFO  [error]   Not found
+2023.12.19 19:02:44 INFO  [error]   Not found
+2023.12.19 19:02:44 INFO  [error]   not found: C:\Users\Ashish\.ivy2\localio.confluent\kafka-avro-serializer\5.3.2\ivys\ivy.xml
+2023.12.19 19:02:44 INFO  [error]   not found: https://repo1.maven.org/maven2/io/confluent/kafka-avro-serializer/5.3.2/kafka-avro-serializer-5.3.2.pom
+2023.12.19 19:02:44 INFO  [error] Error downloading io.confluent:kafka-schema-registry-client:5.3.2
+2023.12.19 19:02:44 INFO  [error]   Not found
+2023.12.19 19:02:44 INFO  [error]   Not found
+2023.12.19 19:02:44 INFO  [error]   not found: C:\Users\Ashish\.ivy2\localio.confluent\kafka-schema-registry-client\5.3.2\ivys\ivy.xml
+2023.12.19 19:02:44 INFO  [error]   not found: https://repo1.maven.org/maven2/io/confluent/kafka-schema-registry-client/5.3.2/kafka-schema-registry-client-5.3.2.pom
+2023.12.19 19:02:44 INFO  [error] Total time: 2 s, completed Dec 19, 2023, 7:02:44 PM
+2023.12.19 19:02:44 INFO  time: ran 'sbt bloopInstall' in 6.61s
+2023.12.19 19:02:44 ERROR sbt command failed: C:\Users\Ashish\.jabba\jdk\adopt@1.11.0-11\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Ashish\AppData\Local\Temp\metals12926964014951628748\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+2023.12.19 19:03:31 WARN  no build target for: C:\Users\Ashish\Documents\DataflowExample\build.sbt
+2023.12.19 19:03:32 INFO  running 'C:\Users\Ashish\.jabba\jdk\adopt@1.11.0-11\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Ashish\AppData\Local\Temp\metals5380192093633163486\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.12.19 19:03:33 INFO  [info] welcome to sbt 1.9.7 (AdoptOpenJDK Java 11.0.11)
+2023.12.19 19:03:33 INFO  [info] loading settings for project dataflowexample-build-build from metals.sbt ...
+2023.12.19 19:03:33 INFO  [info] loading project definition from C:\Users\Ashish\Documents\DataflowExample\project\project
+2023.12.19 19:03:35 INFO  [info] loading settings for project dataflowexample-build from metals.sbt ...
+2023.12.19 19:03:35 INFO  [info] loading project definition from C:\Users\Ashish\Documents\DataflowExample\project
+2023.12.19 19:03:36 INFO  [success] Generated .bloop\dataflowexample-build.json
+2023.12.19 19:03:36 INFO  [success] Total time: 1 s, completed Dec 19, 2023, 7:03:36 PM
+2023.12.19 19:03:37 INFO  [info] loading settings for project dataflowexample from build.sbt ...
+2023.12.19 19:03:37 INFO  [info] set current project to DataFlowExmaple (in build file:/C:/Users/Ashish/Documents/DataflowExample/)
+2023.12.19 19:03:39 INFO  [warn] 
+2023.12.19 19:03:39 INFO  [warn] 	Note: Unresolved dependencies path:
+2023.12.19 19:03:39 INFO  [error] Couldn't run bloopGenerate. The issue could be caused by failing to compile the project.
+2023.12.19 19:03:39 INFO  [error] sbt.librarymanagement.ResolveException: Error downloading io.confluent:kafka-avro-serializer:5.3.0
+2023.12.19 19:03:39 INFO  [error]   Not found
+2023.12.19 19:03:39 INFO  [error]   Not found
+2023.12.19 19:03:39 INFO  [error]   not found: C:\Users\Ashish\.ivy2\localio.confluent\kafka-avro-serializer\5.3.0\ivys\ivy.xml
+2023.12.19 19:03:39 INFO  [error]   not found: https://repo1.maven.org/maven2/io/confluent/kafka-avro-serializer/5.3.0/kafka-avro-serializer-5.3.0.pom
+2023.12.19 19:03:39 INFO  [error] Error downloading io.confluent:kafka-avro-serializer:5.3.2
+2023.12.19 19:03:39 INFO  [error]   Not found
+2023.12.19 19:03:39 INFO  [error]   Not found
+2023.12.19 19:03:39 INFO  [error]   not found: C:\Users\Ashish\.ivy2\localio.confluent\kafka-avro-serializer\5.3.2\ivys\ivy.xml
+2023.12.19 19:03:39 INFO  [error]   not found: https://repo1.maven.org/maven2/io/confluent/kafka-avro-serializer/5.3.2/kafka-avro-serializer-5.3.2.pom
+2023.12.19 19:03:39 INFO  [error] Error downloading io.confluent:kafka-schema-registry-client:5.3.2
+2023.12.19 19:03:39 INFO  [error]   Not found
+2023.12.19 19:03:39 INFO  [error]   Not found
+2023.12.19 19:03:39 INFO  [error]   not found: C:\Users\Ashish\.ivy2\localio.confluent\kafka-schema-registry-client\5.3.2\ivys\ivy.xml
+2023.12.19 19:03:39 INFO  [error]   not found: https://repo1.maven.org/maven2/io/confluent/kafka-schema-registry-client/5.3.2/kafka-schema-registry-client-5.3.2.pom
+2023.12.19 19:03:39 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.unresolvedWarningOrThrow(CoursierDependencyResolution.scala:344)
+2023.12.19 19:03:39 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.$anonfun$update$38(CoursierDependencyResolution.scala:313)
+2023.12.19 19:03:39 INFO  [error] 	at scala.util.Either$LeftProjection.map(Either.scala:573)
+2023.12.19 19:03:39 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.update(CoursierDependencyResolution.scala:313)
+2023.12.19 19:03:39 INFO  [error] 	at sbt.librarymanagement.DependencyResolution.update(DependencyResolution.scala:60)
+2023.12.19 19:03:39 INFO  [error] 	at sbt.internal.LibraryManagement$.resolve$1(LibraryManagement.scala:60)
+2023.12.19 19:03:39 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$12(LibraryManagement.scala:134)
+2023.12.19 19:03:39 INFO  [error] 	at sbt.util.Tracked$.$anonfun$lastOutput$1(Tracked.scala:74)
+2023.12.19 19:03:39 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$20(LibraryManagement.scala:147)
+2023.12.19 19:03:39 INFO  [error] 	at scala.util.control.Exception$Catch.apply(Exception.scala:228)
+2023.12.19 19:03:39 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11(LibraryManagement.scala:147)
+2023.12.19 19:03:39 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11$adapted(LibraryManagement.scala:128)
+2023.12.19 19:03:39 INFO  [error] 	at sbt.util.Tracked$.$anonfun$inputChangedW$1(Tracked.scala:220)
+2023.12.19 19:03:39 INFO  [error] 	at sbt.internal.LibraryManagement$.cachedUpdate(LibraryManagement.scala:161)
+2023.12.19 19:03:39 INFO  [error] 	at sbt.Classpaths$.$anonfun$updateTask0$1(Defaults.scala:3801)
+2023.12.19 19:03:39 INFO  [error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:49)
+2023.12.19 19:03:39 INFO  [error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:63)
+2023.12.19 19:03:39 INFO  [error] 	at sbt.std.Transform$$anon$4.work(Transform.scala:69)
+2023.12.19 19:03:39 INFO  [error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:283)
+2023.12.19 19:03:39 INFO  [error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:24)
+2023.12.19 19:03:39 INFO  [error] 	at sbt.Execute.work(Execute.scala:292)
+2023.12.19 19:03:39 INFO  [error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:283)
+2023.12.19 19:03:39 INFO  [error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)
+2023.12.19 19:03:39 INFO  [error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:65)
+2023.12.19 19:03:39 INFO  [error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+2023.12.19 19:03:39 INFO  [error] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+2023.12.19 19:03:39 INFO  [error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+2023.12.19 19:03:39 INFO  [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+2023.12.19 19:03:39 INFO  [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+2023.12.19 19:03:39 INFO  [error] 	at java.base/java.lang.Thread.run(Thread.java:829)
+2023.12.19 19:03:39 INFO  [error] (update) sbt.librarymanagement.ResolveException: Error downloading io.confluent:kafka-avro-serializer:5.3.0
+2023.12.19 19:03:39 INFO  [error]   Not found
+2023.12.19 19:03:39 INFO  [error]   Not found
+2023.12.19 19:03:39 INFO  [error]   not found: C:\Users\Ashish\.ivy2\localio.confluent\kafka-avro-serializer\5.3.0\ivys\ivy.xml
+2023.12.19 19:03:39 INFO  [error]   not found: https://repo1.maven.org/maven2/io/confluent/kafka-avro-serializer/5.3.0/kafka-avro-serializer-5.3.0.pom
+2023.12.19 19:03:39 INFO  [error] Error downloading io.confluent:kafka-avro-serializer:5.3.2
+2023.12.19 19:03:39 INFO  [error]   Not found
+2023.12.19 19:03:39 INFO  [error]   Not found
+2023.12.19 19:03:39 INFO  [error]   not found: C:\Users\Ashish\.ivy2\localio.confluent\kafka-avro-serializer\5.3.2\ivys\ivy.xml
+2023.12.19 19:03:39 INFO  [error]   not found: https://repo1.maven.org/maven2/io/confluent/kafka-avro-serializer/5.3.2/kafka-avro-serializer-5.3.2.pom
+2023.12.19 19:03:39 INFO  [error] Error downloading io.confluent:kafka-schema-registry-client:5.3.2
+2023.12.19 19:03:39 INFO  [error]   Not found
+2023.12.19 19:03:39 INFO  [error]   Not found
+2023.12.19 19:03:39 INFO  [error]   not found: C:\Users\Ashish\.ivy2\localio.confluent\kafka-schema-registry-client\5.3.2\ivys\ivy.xml
+2023.12.19 19:03:39 INFO  [error]   not found: https://repo1.maven.org/maven2/io/confluent/kafka-schema-registry-client/5.3.2/kafka-schema-registry-client-5.3.2.pom
+2023.12.19 19:03:39 INFO  [error] Total time: 1 s, completed Dec 19, 2023, 7:03:39 PM
+2023.12.19 19:03:39 INFO  time: ran 'sbt bloopInstall' in 6.53s
+2023.12.19 19:03:39 ERROR sbt command failed: C:\Users\Ashish\.jabba\jdk\adopt@1.11.0-11\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Ashish\AppData\Local\Temp\metals5380192093633163486\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+2023.12.19 19:10:15 INFO  Shutting down server
+2023.12.19 19:10:15 INFO  shutting down Metals
+2023.12.19 19:10:15 INFO  Shut down connection with build server.
+2023.12.19 19:10:15 INFO  Shut down connection with build server.
+2023.12.19 19:10:15 INFO  Exiting server
+2023.12.19 19:12:16 INFO  Started: Metals version 1.2.0 in folders 'C:\Users\Ashish\Documents\ODU\Cs480\Assignment4, C:\Users\Ashish\Documents\ODU\Cs480\Assignment3, C:\Users\Ashish\PycharmProjects\DeepNeuron, C:\Users\Ashish\PycharmProjects\NeuralNetwork, C:\Users\Ashish\PycharmProjects\CrossWordSolver, C:\Users\Ashish\Documents\TensorflowCertification, C:\Users\Ashish\Documents\ScalaProgramming, C:\Users\Ashish\Documents\apss, C:\Users\Ashish\Documents\DataflowExample' for client Visual Studio Code 1.85.1.
+2023.12.19 19:12:17 WARN  Build server is not auto-connectable.
+2023.12.19 19:12:17 WARN  no build tool detected in workspace 'C:\Users\Ashish\Documents\ODU\Cs480\Assignment4'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.12.19 19:12:17 INFO  Attempting to connect to the build server...
+2023.12.19 19:12:17 INFO  skipping build import with status 'Failed'
+2023.12.19 19:12:17 INFO  Bloop uses C:\Users\Ashish\.jabba\jdk\adopt@1.11.0-11 defined at C:\Users\Ashish\.bloop\bloop.json
+2023.12.19 19:12:17 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Ashish\Documents\ScalaProgramming\.metals\bsp.trace.json or C:\Users\Ashish\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.12.19 19:12:17 INFO  Attempting to connect to the build server...
+2023.12.19 19:12:17 WARN  Build server is not auto-connectable.
+2023.12.19 19:12:17 INFO  Bloop uses C:\Users\Ashish\.jabba\jdk\adopt@1.11.0-11 defined at C:\Users\Ashish\.bloop\bloop.json
+2023.12.19 19:12:17 WARN  no build target for: C:\Users\Ashish\Documents\DataflowExample\build.sbt
+2023.12.19 19:12:17 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Ashish\Documents\ScalaProgramming\project\.metals\bsp.trace.json or C:\Users\Ashish\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.12.19 19:12:17 INFO  time: Connected to build server in 0.24s
+2023.12.19 19:12:17 INFO  Connected to Build server: Bloop v1.5.13
+2023.12.19 19:12:20 INFO  no build target found for C:\Users\Ashish\Documents\DataflowExample\build.sbt. Using presentation compiler with project's scala-library version: 3.3.1
+2023.12.19 19:12:20 INFO  no build target found for C:\Users\Ashish\Documents\DataflowExample\build.sbt. Using presentation compiler with project's scala-library version: 3.3.1
+2023.12.19 19:12:20 INFO  time: indexed workspace in 3.11s
+2023.12.19 19:12:20 WARN  no build target for: C:\Users\Ashish\Documents\DataflowExample\build.sbt
+2023.12.19 19:12:21 INFO  time: code lens generation in 4.04s
+2023.12.19 19:13:27 INFO  running 'C:\Users\Ashish\.jabba\jdk\adopt@1.11.0-11\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -Dsbt.version=1.9.7 -jar C:\Users\Ashish\AppData\Local\Temp\metals12895707963766027582\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.12.19 19:13:28 INFO  [info] Updated file C:\Users\Ashish\Documents\DataflowExample\project\build.properties: set sbt.version to 1.9.7
+2023.12.19 19:13:28 INFO  [info] welcome to sbt 1.9.7 (AdoptOpenJDK Java 11.0.11)
+2023.12.19 19:13:28 INFO  [info] loading global plugins from C:\Users\Ashish\.sbt\1.0\plugins
+2023.12.19 19:13:30 INFO  [info] loading settings for project dataflowexample-build-build from metals.sbt ...
+2023.12.19 19:13:30 INFO  [info] loading project definition from C:\Users\Ashish\Documents\DataflowExample\project\project
+2023.12.19 19:13:31 INFO  Shutting down server
+2023.12.19 19:13:31 INFO  shutting down Metals
+2023.12.19 19:13:30 INFO  [info] loading settings for project dataflowexample-build from metals.sbt ...
+2023.12.19 19:13:31 INFO  Shut down connection with build server.
+2023.12.19 19:13:31 INFO  Shut down connection with build server.
+2023.12.19 19:13:31 INFO  [info] loading project definition from C:\Users\Ashish\Documents\DataflowExample\project
+2023.12.19 19:13:31 INFO  Exiting server
+2023.12.22 13:21:27 INFO  Started: Metals version 1.2.0 in folders 'C:\Users\Ashish\Documents\ODU\Cs480\Assignment4, C:\Users\Ashish\Documents\ODU\Cs480\Assignment3, C:\Users\Ashish\PycharmProjects\DeepNeuron, C:\Users\Ashish\PycharmProjects\NeuralNetwork, C:\Users\Ashish\PycharmProjects\CrossWordSolver, C:\Users\Ashish\Documents\TensorflowCertification, C:\Users\Ashish\Documents\ScalaProgramming, C:\Users\Ashish\Documents\apss, C:\Users\Ashish\Documents\DataflowExample' for client Visual Studio Code 1.85.1.
+2023.12.22 13:21:27 WARN  Build server is not auto-connectable.
+2023.12.22 13:21:27 WARN  no build tool detected in workspace 'C:\Users\Ashish\Documents\ODU\Cs480\Assignment4'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.12.22 13:21:27 INFO  Attempting to connect to the build server...
+2023.12.22 13:21:27 INFO  Bloop uses C:\Users\Ashish\.jabba\jdk\adopt@1.11.0-11 defined at C:\Users\Ashish\.bloop\bloop.json
+2023.12.22 13:21:27 INFO  skipping build import with status 'Failed'
+2023.12.22 13:21:27 WARN  Build server is not auto-connectable.
+2023.12.22 13:21:33 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Ashish\Documents\ScalaProgramming\.metals\bsp.trace.json or C:\Users\Ashish\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.12.22 13:21:33 INFO  Attempting to connect to the build server...
+2023.12.22 13:21:33 INFO  Bloop uses C:\Users\Ashish\.jabba\jdk\adopt@1.11.0-11 defined at C:\Users\Ashish\.bloop\bloop.json
+2023.12.22 13:21:33 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Ashish\Documents\ScalaProgramming\project\.metals\bsp.trace.json or C:\Users\Ashish\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.12.22 13:21:33 INFO  time: Connected to build server in 6.2s
+2023.12.22 13:21:33 INFO  Connected to Build server: Bloop v1.5.13
+2023.12.22 13:21:34 INFO  time: Imported build in 0.11s
+2023.12.22 13:21:38 INFO  logging to files C:\Users\Ashish\Documents\ODU\Cs480\Assignment4\.metals\metals.log,C:\Users\Ashish\Documents\ScalaProgramming\.metals\metals.log,C:\Users\Ashish\Documents\DataflowExample\.metals\metals.log
+2023.12.22 13:21:43 INFO  time: indexed workspace in 8.73s
+2023.12.22 13:22:55 INFO  Shutting down server
+2023.12.22 13:22:55 INFO  shutting down Metals
+2023.12.22 13:22:55 INFO  Shut down connection with build server.
+2023.12.22 13:22:55 INFO  Shut down connection with build server.
+2023.12.22 13:22:55 INFO  Exiting server
+2023.12.22 13:23:02 INFO  Started: Metals version 1.2.0 in folders 'C:\Users\Ashish\Documents\ODU\Cs480\Assignment4, C:\Users\Ashish\Documents\ODU\Cs480\Assignment3, C:\Users\Ashish\PycharmProjects\DeepNeuron, C:\Users\Ashish\PycharmProjects\NeuralNetwork, C:\Users\Ashish\PycharmProjects\CrossWordSolver, C:\Users\Ashish\Documents\TensorflowCertification, C:\Users\Ashish\Documents\ScalaProgramming, C:\Users\Ashish\Documents\apss, C:\Users\Ashish\Documents\DataflowExample, C:\Users\Ashish\Documents\cudaprogramming' for client Visual Studio Code 1.85.1.
+2023.12.22 13:23:02 WARN  Build server is not auto-connectable.
+2023.12.22 13:23:02 WARN  no build tool detected in workspace 'C:\Users\Ashish\Documents\ODU\Cs480\Assignment4'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.12.22 13:23:03 INFO  Attempting to connect to the build server...
+2023.12.22 13:23:03 INFO  Bloop uses C:\Users\Ashish\.jabba\jdk\adopt@1.11.0-11 defined at C:\Users\Ashish\.bloop\bloop.json
+2023.12.22 13:23:02 INFO  skipping build import with status 'Failed'
+2023.12.22 13:23:03 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Ashish\Documents\ScalaProgramming\.metals\bsp.trace.json or C:\Users\Ashish\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.12.22 13:23:03 WARN  Build server is not auto-connectable.
+2023.12.22 13:23:03 INFO  Attempting to connect to the build server...
+2023.12.22 13:23:03 INFO  Bloop uses C:\Users\Ashish\.jabba\jdk\adopt@1.11.0-11 defined at C:\Users\Ashish\.bloop\bloop.json
+2023.12.22 13:23:03 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Ashish\Documents\ScalaProgramming\project\.metals\bsp.trace.json or C:\Users\Ashish\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.12.22 13:23:03 INFO  time: Connected to build server in 0.23s
+2023.12.22 13:23:03 INFO  Connected to Build server: Bloop v1.5.13
+2023.12.22 13:23:05 INFO  time: indexed workspace in 2.01s
+2023.12.22 13:27:31 INFO  logging to files C:\Users\Ashish\Documents\ScalaProgramming\.metals\metals.log,C:\Users\Ashish\Documents\DataflowExample\.metals\metals.log

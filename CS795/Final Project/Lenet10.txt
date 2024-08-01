@@ -1,0 +1,2 @@
+https://www.kaggle.com/code/shreydan/lenet-5-cifar10-pytorch
+https://www.kaggle.com/code/vikasbhadoria/cifar10-high-accuracy-model-build-on-pytorch

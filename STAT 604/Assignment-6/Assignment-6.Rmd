@@ -1,0 +1,383 @@
+---
+title: "Assignment-6"
+author: "Ashish Verma"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Section 8.2 Problem #18
+Solution(a)
+```{R}
+# Given values
+x <- 72.3
+null_mean <- 75
+population_sd <- 9
+number_of_samples = 25
+
+# Calculate z-score
+z_score <- (x - null_mean) / (population_sd/sqrt(number_of_samples))
+cat("The standard deviations (of X) below the null value is x_bar 5 72.3?", z_score, "\n")
+```
+Solution(b)
+```{R}
+# Given values
+alpha <- 0.002
+critical_z_value <- qnorm(alpha)
+print(critical_z_value)
+
+# Make a conclusion
+# Compare z-score with critical z-value for a left-tailed test
+if (z_score < critical_z_value) {
+  cat("Reject the null hypothesis. There is enough evidence to suggest that the true mean is less than 75 at the 0.002 significance level (left-sided test).\n")
+} else {
+  cat("Fail to reject the null hypothesis. There is not enough evidence to suggest that the true mean is less than 75 at the 0.002 significance level (left-sided test).\n")
+}
+
+```
+Solution(c)
+```{R}
+# Given values
+alpha <- 0.002
+null_mean <- 75
+alternative_mean <- 70
+population_sd <- 9
+number_of_samples <- 25
+
+# Calculate critical z-value for alpha
+critical_z_value <- qnorm(alpha)
+
+# Calculate non-centrality parameter lambda
+lambda <- sqrt(number_of_samples) * (null_mean - alternative_mean) / population_sd
+
+# Calculate Type II error (beta)
+beta <- pnorm(critical_z_value + lambda)
+
+cat("Probability of Type II error (beta) for mu = 70 (left-tailed test):", beta, "\n")
+
+```
+Solution(d)
+```{R}
+
+population_sd <- 9
+alpha <- 0.002
+beta = 0.01
+null_mean <-75
+alternative_mean <-70
+
+sample_size <-(population_sd*(qnorm(alpha)+qnorm(beta))/(null_mean - alternative_mean))^2
+cat("Sample size is necessary to ensure that beta(70)", ceiling(sample_size), "\n")
+```
+
+Solution(e)
+```{R}
+# Given values
+alternative_mean_76 <- 76
+sample_size_100 <- 100
+alpha = 0.01
+z_alpha =qnorm(alpha)
+# Calculate z-score for mu = 76
+new_null_mean <- z_alpha*(population_sd/sqrt(number_of_samples))+75
+
+new_z_score <-(new_null_mean - alternative_mean_76) / (population_sd/sqrt(number_of_samples))
+type_1 <-  pnorm(new_z_score,lower.tail = TRUE)
+cat("Type 1 error ", type_1, "\n")
+```
+
+
+### Section 8.2 Problem #23
+Solution(a)
+```{R}
+# ALD observations
+ald_data <- c(1.38, 0.44, 1.09, 0.75, 0.66, 1.28, 0.51, 0.39, 0.70, 0.46,
+              0.54, 0.83, 0.58, 0.64, 1.30, 0.57, 0.43, 0.62, 1.00, 1.05,
+              0.82, 1.10, 0.65, 0.99, 0.56, 0.56, 0.64, 0.45, 0.82, 1.06,
+              0.41, 0.58, 0.66, 0.54, 0.83, 0.59, 0.51, 1.04, 0.85, 0.45,
+              0.52, 0.58, 1.11, 0.34, 1.25, 0.38, 1.44, 1.28, 0.51)
+
+# Summary statistics
+summary_stats <- summary(ald_data)
+mean_ald <- mean(ald_data)
+sd_ald <- sd(ald_data)
+
+# Print summary statistics
+cat("Summary Statistics:\n")
+print(summary_stats)
+cat("\nMean ALD:", mean_ald, "\n")
+cat("Standard Deviation:", sd_ald, "\n")
+
+```
+ Solution(b)
+ ```{R}
+# Normality check using a normal probability plot
+hist(ald_data, main="Histogram of ALD", xlab="Stopping Distance")
+
+qqnorm(ald_data)
+qqline(ald_data)
+
+shapiro.test(ald_data)
+
+ ```
+The data is not normaly distributed.
+Solution(c)
+```{R}
+# Given data
+ald_data <- c(1.38, 0.44, 1.09, 0.75, 0.66, 1.28, 0.51, 0.39, 0.70, 0.46,
+              0.54, 0.83, 0.58, 0.64, 1.30, 0.57, 0.43, 0.62, 1.00, 1.05,
+              0.82, 1.10, 0.65, 0.99, 0.56, 0.56, 0.64, 0.45, 0.82, 1.06,
+              0.41, 0.58, 0.66, 0.54, 0.83, 0.59, 0.51, 1.04, 0.85, 0.45,
+              0.52, 0.58, 1.11, 0.34, 1.25, 0.38, 1.44, 1.28, 0.51)
+
+# Hypotheses
+mu_0 <- 1.0  # hypothesized true average ALD
+alternative <- "less"  # one-sided test
+
+# One-sample t-test
+t_test_result <- t.test(ald_data, mu = mu_0, alternative = alternative)
+
+# Print test result
+cat("One-Sample t-Test Result:\n")
+print(t_test_result)
+
+# Interpretation based on p-value
+alpha <- 0.05  # significance level
+p_value <- t_test_result$p.value
+
+cat("\nInterpretation:\n")
+if (p_value < alpha) {
+  cat("The p-value is less than the significance level (", alpha, "),\n")
+  cat("we reject the null hypothesis and conclude that there is strong evidence\n")
+  cat("that the true average ALD is less than 1.0.\n")
+} else {
+  cat("The p-value is not less than the significance level (", alpha, "),\n")
+  cat("we do not reject the null hypothesis.\n")
+}
+
+```
+Solution(d)
+```{R}
+# Given data
+ald_data <- c(1.38, 0.44, 1.09, 0.75, 0.66, 1.28, 0.51, 0.39, 0.70, 0.46,
+              0.54, 0.83, 0.58, 0.64, 1.30, 0.57, 0.43, 0.62, 1.00, 1.05,
+              0.82, 1.10, 0.65, 0.99, 0.56, 0.56, 0.64, 0.45, 0.82, 1.06,
+              0.41, 0.58, 0.66, 0.54, 0.83, 0.59, 0.51, 1.04, 0.85, 0.45,
+              0.52, 0.58, 1.11, 0.34, 1.25, 0.38, 1.44, 1.28, 0.51)
+
+# Confidence level
+confidence_level <- 0.95
+
+# Calculate upper confidence bound
+upper_ci <- t.test(ald_data, conf.level = confidence_level)$conf.int[2]
+
+# Print the result
+cat("Upper Confidence Bound (", confidence_level * 100, "%):", upper_ci, "\n")
+
+# Interpretation
+cat("\nInterpretation:\n")
+cat("We are 95% confident that the true average ALD is less than", upper_ci, "\n")
+
+```
+### Section 8.3 Problem #34
+Solution(a)
+```{R}
+# Stopping distance data
+data <- c(32.1, 30.6, 31.4, 30.4, 31.0, 31.9)
+
+# Hypothesized mean
+mu_0 <- 30
+
+# Significance level
+alpha <- 0.01
+
+# One-sample t-test
+result <- t.test(data, mu = mu_0, alternative = "greater")
+
+# Check if p-value is less than alpha
+reject_null <- result$p.value < alpha
+
+cat("a. Hypothesis Test Result:\n")
+cat("T-statistic:", result$statistic, "\n")
+cat("P-value:", result$p.value, "\n")
+cat("Reject Null Hypothesis:", reject_null, "\n")
+
+```
+Conclusion: We conclude that the true average stopping distance exceeds the maximum value.
+
+Solution(b)
+```{R}
+# Given values for the Type II error calculation
+mu_0 <- 30
+mu_1 <- 31
+mu_2 <-32
+sigma <- 0.65
+n<-length(data)
+df <-5
+
+critical_t <- qt(1 - 0.01, df)
+
+# Calculate the z-score for the actual mean (mu_1)
+z <- (mu_1 - mu_0) / (sigma / sqrt(n))
+
+# Calculate the t-statistic for the actual mean (mu_1)
+t_stat_type_II <- (mu_1 - mu_0) / (sigma / sqrt(n))
+
+# The probability of Type II error is the probability that the t-statistic is less than the critical t-value
+# when the true mean is mu_1.
+# This is the CDF of the non-central t-distribution with non-centrality parameter calculated above and df.
+beta_1 <- pt(critical_t, df, ncp = sqrt(n) * (mu_1 - mu_0) / sigma)
+
+beta_2 <- pt(critical_t, df, ncp = sqrt(n) * (mu_2 - mu_0) / sigma)
+
+cat("b. Probability of Type II Error (Scenario 1):", beta_1, "\n")
+cat("b. Probability of Type II Error (Scenario 2):", beta_2, "\n")
+```
+
+Solution(c)
+```{R}
+# Given values for Scenario 2
+mu_0 <- 30
+mu_1 <- 31
+mu_2 <-32
+sigma <- 0.80
+n<-length(data)
+df <-5
+
+critical_t <- qt(1 - 0.01, df)
+
+# Calculate the z-score for the actual mean (mu_1)
+z <- (mu_1 - mu_0) / (sigma / sqrt(n))
+
+# Calculate the t-statistic for the actual mean (mu_1)
+t_stat_type_II <- (mu_1 - mu_0) / (sigma / sqrt(n))
+
+# The probability of Type II error is the probability that the t-statistic is less than the critical t-value
+# when the true mean is mu_1.
+# This is the CDF of the non-central t-distribution with non-centrality parameter calculated above and df.
+beta_1_1 <- pt(critical_t, df, ncp = sqrt(n) * (mu_1 - mu_0) / sigma)
+
+beta_2_1 <- pt(critical_t, df, ncp = sqrt(n) * (mu_2 - mu_0) / sigma)
+
+cat("b. Probability of Type II Error (Scenario 1):", beta_1_1, "\n")
+cat("b. Probability of Type II Error (Scenario 2):", beta_2_1, "\n")
+
+```
+The probability of Type 2 error for mu = 31 remains same but for mu =32 increases.
+
+Solution(d)
+```{R}
+# Given values for Scenario 3
+# Given values for sample size calculation
+alpha <- 0.01
+beta_desired <- 0.10
+mu_1 <- 31
+
+# Z-scores for alpha and power (1-beta)
+z_alpha <- qnorm(1 - alpha)
+z_beta <- qnorm(1 - beta_desired)
+
+effect_size <- (mu_1 - mu_0) / sigma
+
+# Sample size estimation using the formula for power of a test
+sample_size <- ((z_alpha + z_beta)^2 * sigma^2) / effect_size^2
+
+ceiling(sample_size)  # Always round up to the next whole number
+
+
+```
+
+### Section 8.3 Problem #36
+Solution(a)
+We will not assume the renaming amount of toothpaste to be normally distributed because we don't know it's  population,
+and for applying the.CL.T we need sample of size greater than 40,but as the sample size is small we connote assume it to be
+normal.
+Solution(b)
+\[ H_0: \mu >= 6 \]
+\[ H_a: \mu <6  \]
+```{R}
+
+sample_mean <- 0.502
+sample_stddev <- 0.1023
+sample_size <- 5
+population_mean <- 0.6
+alpha <- 0.05
+
+# Calculate the standard error of the mean
+standard_error <- sample_stddev / sqrt(sample_size)
+
+# Calculate the t-statistic
+t_statistic <- (sample_mean - population_mean) / standard_error
+
+# Critical value for a one-tailed test
+t_critical <- qt(alpha, df = sample_size - 1, lower.tail = TRUE)
+
+# Compare the t-statistic with the critical value
+decision <- ifelse(t_statistic < t_critical, "Reject H0", "Fail to Reject H0")
+
+# Calculate the p-value for a one-tailed test
+p_value <- pt(t_statistic, df = sample_size - 1, lower.tail = TRUE)
+
+cat("T-statistic:", t_statistic, "\n")
+cat("Critical Value:", t_critical, "\n")
+cat("Decision:", decision, "\n")
+cat("P-value:", p_value, "\n")
+
+# Type I Error (False Positive)
+type_I_error <- pnorm(t_critical, lower.tail = TRUE)
+
+# Type II Error (False Negative)
+type_II_error <- 1 - pnorm(t_critical, lower.tail = FALSE)
+
+cat("Type I Error (False Positive):", type_I_error, "\n")
+cat("Type II Error (False Negative):", type_II_error, "\n")
+
+```
+
+The rejection of the null hypothesis implies that there is evidence to suggest that the true population mean (mu) is less than 0.6.
+The risk of Type I Error is present, meaning there's a chance that the null hypothesis was true, but we incorrectly rejected it.
+If the null hypothesis were not rejected, there would be a risk of Type II Error, indicating a failure to reject a false null hypothesis
+
+
+## Part 2
+The null hypothesis \(H_0\) is that the new fertilizer does not have any effect on wheat production, and the alternative hypothesis \(H_a\) is that the new fertilizer will increase the production.
+\[ H_0: \mu = 3 \]
+\[ H_a: \mu >  3 \]
+
+```{R}
+# Provided data
+data <- c(2.5, 3.0, 3.1, 4.0, 1.2, 5.0, 4.1, 3.9, 3.2, 3.3, 2.8, 4.1, 2.7, 2.9, 3.7)
+
+# Null hypothesis: The mean yield is the same as the previous yield (3 bushels)
+null_mean <- 3
+
+# Sample mean and standard deviation
+sample_mean <- mean(data)
+sample_sd <- sd(data)
+
+# Number of observations
+n <- length(data)
+
+# Calculate the t-statistic
+t_statistic <- (sample_mean - null_mean) / (sample_sd / sqrt(n))
+
+# Degrees of freedom
+df <- n - 1
+
+# Calculate the p-value
+p_value <- pt(t_statistic, df, lower.tail = FALSE)
+
+# Display the results
+cat("Test Statistic:", t_statistic, "\n")
+cat("P-value:", p_value, "\n")
+
+# Check if the p-value is less than the significance level (e.g., 0.05)
+if (p_value <= 0.05) {
+  cat("Reject the null hypothesis. There is evidence that the new fertilizer increases wheat production.\n")
+} else {
+  cat("Fail to reject the null hypothesis. There is not enough evidence to conclude that the new fertilizer increases wheat production.\n")
+}
+
+
+```

@@ -1,0 +1,16 @@
+@RELATION test
+
+@ATTRIBUTE attribute_0 {HIGH,LOW,MED,V.HIGH,﻿Area}
+@ATTRIBUTE attribute_1 {HIGH,LOW,MED,Perimeter}
+@ATTRIBUTE attribute_2 {Aspect ratio,HIGH,LOW,MED,V.HIGH}
+@ATTRIBUTE attribute_3 {Equivalent diameter,HIGH,LOW,MED,V.HIGH}
+@ATTRIBUTE attribute_4 {,Class}
+
+@DATA
+﻿Area,Perimeter ,Aspect ratio,Equivalent diameter,Class
+LOW,LOW,MED,V.HIGH,
+MED,HIGH,LOW,LOW,
+HIGH,MED,HIGH,HIGH,
+V.HIGH,HIGH,V.HIGH,HIGH,
+LOW,LOW,MED,MED,
+HIGH,HIGH,HIGH,HIGH,

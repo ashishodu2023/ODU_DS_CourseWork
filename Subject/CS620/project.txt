@@ -1,0 +1,46 @@
+https://www.nature.com/articles/s43856-022-00129-0
+https://www.scirp.org/journal/paperinformation.aspx?paperid=84207#t1
+https://bmcinfectdis.biomedcentral.com/articles/10.1186/s12879-022-07223-7
+https://researchonline.ljmu.ac.uk/id/eprint/17307/1/Multi-class%20classification%20algorithms%20for%20the%20diagnosis%20of%20anemia%20in%20an%20outpatient%20clinical%20setting.pdf
+https://github.com/dhruvp/wbc-classification/blob/master/notebooks/binary_training.ipynb
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7182702/
+https://data.mendeley.com/datasets/snkd93bnjr/1
+https://www.osti.gov/servlets/purl/1863291
+https://www.kaggle.com/code/abdallahwagih/acute-lymphoblastic-leukemia-classification-fastai
+http://homes.di.unimi.it/scotti/all/
+
+
+Fraud Detection in Crypto currency
+https://medium.com/@nusfintech.ml/crypto-fraud-detection-3d99b3298815
+https://www.kaggle.com/datasets/vagifa/ethereum-frauddetection-dataset
+https://github.com/Saket03-P/Ethereum-Transactions-Fraud-Detection
+https://www.research-collection.ethz.ch/bitstream/handle/20.500.11850/523134/MasterThesisSfS-ZenoBenetti.pdf?sequence=1&isAllowed=y
+https://github.com/LX-schlee/WebScraping_BeautifulSoup_Cryptocurrency/blob/master/FinalTemplate_Coingecko.ipynb
+https://github.com/LX-schlee/WebScraping_BeautifulSoup_Cryptocurrency/tree/master
+https://stackoverflow.com/questions/66609028/scraping-coin-gecko-with-pandas-report-http-error-403
+https://bobrupakroy.medium.com/ethereum-fraud-detection-ba4e1d8b262a
+https://medium.com/crypto-code/learn-the-basics-of-web-scraping-data-with-python-and-beautifulsoup-2222e6dbe117
+https://www.kaggle.com/code/bhavinmoriya/web-scraping-to-scrape-cryptocurrency-info--working
+https://www.kaggle.com/code/averma111/notebook3b91e0cb30/edit-- working
+https://github.com/DavidCico/Web-scraping-with-Beautiful-Soup-an-example-on-cryptocurrency-data----deprecated-DOM-change/blob/master/Get_coin_data.ipynb  -- working  
+https://jovian.com/shaswathpatil7/web-scraping-project
+
+
+https://medium.com/@rohansawant7978/forecasting-of-bitcoin-price-using-machine-learning-deep-learning-techniques-93bf662f46ab  --working
+
+https://github.com/rohansawant7978/bitcoin-price-forecasting/blob/main/05_Modelling_Next_Day_Price.ipynb
+https://eodhd.com/financial-apis/python-financial-libraries-and-code-samples/
+
+
+https://api.coinmarketcap.com/data-api/v3/cryptocurrency/historical?id=1&convertId=2781&timeStart=1632441600&timeEnd=1637712000
+
+
+final_df.to_csv('/content/drive/MyDrive/Self Case studies/CS01 Bitcoin Price Forecasting/Data/02 Featu
+
+
+https://api.coinmarketcap.com/data-api/v3/cryptocurrency/historical?id=70&convertId=2781&timeStart=1514793600&timeEnd=1693551600
+
+Pytorch 
+https://charlieoneill.medium.com/predicting-the-price-of-bitcoin-with-multivariate-pytorch-lstms-695bc294130
+https://www.kaggle.com/code/alejopaullier/pytorch-predict-binance-crypto

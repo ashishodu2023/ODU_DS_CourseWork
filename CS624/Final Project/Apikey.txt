@@ -1,0 +1,1 @@
+Welcome to Alpha Vantage! Your dedicated access key is: CXR0FK6E9OMGI5CO. Please record this API key at a safe place for future data access.

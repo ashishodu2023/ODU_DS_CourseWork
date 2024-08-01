@@ -1,0 +1,32 @@
+1. Data Acquisition:
+
+    Alpha Vantage API: Fetches real-time and historical stock price data in JSON format.
+    Kafka Topic: Serves as a message queue to store real-time stock price data before processing.
+    AWS Lambda (Kafka Consumer): Listens to the Kafka topic, consumes real-time stock price data, and triggers further processing.
+
+2. Feature Pipeline:
+
+    Bytewax: Processes incoming stock price data from Kafka, performs data normalization, and extracts relevant features for analysis.
+    Feature Engineering: Extracts additional features from the normalized data, such as moving averages, relative strength index (RSI), or other technical indicators.
+    Comet ML (Tracking): Logs the extracted features and metadata for model training and evaluation.
+
+3. Training Pipeline:
+
+    Spark DataFrame (or AWS Kinesis Data Analytics): Processes and analyzes real-time data streams from Kafka. Integrates machine learning models for predicting the next day's closing price.
+    Machine Learning Model Training: Trains machine learning models using historical stock price data and the extracted features. Utilizes libraries like scikit-learn, TensorFlow, or PyTorch for model development.
+    Comet ML (Experiment Tracking): Logs hyperparameters, metrics, and model performance during training for experiment tracking and reproducibility.
+
+4. Inference Pipeline:
+
+    Model Deployment (AWS Lambda or SageMaker): Deployed machine learning model as a service on AWS Lambda or Amazon SageMaker, providing an endpoint to receive input data and return predictions.
+    InfluxDB or Amazon Timestream: Stores time-series data, including historical stock prices, real-time data, and predicted values. Supports querying for real-time and historical data retrieval.
+    Comet ML (Model Versioning): Tracks model versions and performance metrics in Comet ML for model management and governance.
+
+Workflow:
+
+    Data Acquisition: Alpha Vantage API fetches real-time and historical stock price data, which is then pushed to the Kafka topic. AWS Lambda consumes this data for further processing.
+    Feature Pipeline: Bytewax processes data from Kafka, performs normalization, and extracts features. Additional feature engineering steps are performed to enhance the feature set.
+    Training Pipeline: Spark DataFrame processes real-time data streams, trains machine learning models, and logs experiment information using Comet ML.
+    Inference Pipeline: The trained model is deployed on AWS Lambda or SageMaker for inference. Predictions are stored in the database (InfluxDB or Amazon Timestream), and model performance is tracked using Comet ML.
+
+This breakdown allows for a modular and scalable system design, where each component focuses on a specific aspect of the overall workflow, from data acquisition to model deployment and inference.
